@@ -1,0 +1,95 @@
+GIT
+  remote: git://github.com/codefirst/ruboty-asakusa_satellite.git
+  revision: ef551caceefff98deb42ed7ff6c1f973d433bbcf
+  specs:
+    ruboty-asakusa_satellite (0.0.1)
+      ruboty
+
+GIT
+  remote: git://github.com/mallowlabs/ruby-socket.io-client-simple.git
+  revision: f22edd51227358368f038b8469ecad62f9b9bfe4
+  branch: query-parameter
+  specs:
+    socket.io-client-simple (0.0.5)
+      event_emitter
+      httparty
+      json
+      websocket-client-simple (>= 0.0.9)
+
+GIT
+  remote: git://github.com/mallowlabs/websocket-client-simple.git
+  revision: d0f7441b435f7323d72ddf8635a47a27aa96eef8
+  branch: ssl
+  specs:
+    websocket-client-simple (0.1.0)
+      event_emitter
+      websocket
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    activesupport (4.1.1)
+      i18n (~> 0.6, >= 0.6.9)
+      json (~> 1.7, >= 1.7.7)
+      minitest (~> 5.1)
+      thread_safe (~> 0.1)
+      tzinfo (~> 1.1)
+    dotenv (0.11.1)
+      dotenv-deployment (~> 0.0.2)
+    dotenv-deployment (0.0.2)
+    event_emitter (0.2.5)
+    faraday (0.9.0)
+      multipart-post (>= 1.2, < 3)
+    faraday_middleware (0.9.1)
+      faraday (>= 0.7.4, < 0.10)
+    foreman (0.71.0)
+      dotenv (~> 0.11.1)
+      thor (~> 0.19.1)
+    hashie (2.1.1)
+    httparty (0.13.1)
+      json (~> 1.8)
+      multi_xml (>= 0.5.2)
+    i18n (0.6.9)
+    json (1.8.1)
+    mem (0.1.1)
+    minitest (5.3.4)
+    multi_xml (0.5.5)
+    multipart-post (2.0.0)
+    ruboty (1.0.1)
+      activesupport
+      bundler
+      dotenv
+      mem
+      slop
+    ruboty-google_image (0.0.7)
+      faraday
+      faraday_middleware
+      ruboty
+    ruboty-syoboi_calendar (0.0.5)
+      activesupport
+      ruboty
+      syoboi_calendar (= 0.3.1)
+    slop (3.5.0)
+    syoboi_calendar (0.3.1)
+      activesupport
+      faraday
+      faraday_middleware
+      hashie
+      multi_xml
+    thor (0.19.1)
+    thread_safe (0.3.4)
+    tzinfo (1.2.1)
+      thread_safe (~> 0.1)
+    websocket (1.1.4)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  foreman
+  ruboty
+  ruboty-asakusa_satellite!
+  ruboty-google_image
+  ruboty-syoboi_calendar
+  socket.io-client-simple!
+  websocket-client-simple!
