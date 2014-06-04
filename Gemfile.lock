@@ -6,6 +6,13 @@ GIT
       ruboty
 
 GIT
+  remote: git://github.com/mallowlabs/ruboty-heroku_status.git
+  revision: 18f95cb0b08382a4d356e5a660b67f230638e6ff
+  specs:
+    ruboty-heroku_status (0.0.1)
+      ruboty
+
+GIT
   remote: git://github.com/mallowlabs/ruby-socket.io-client-simple.git
   revision: f22edd51227358368f038b8469ecad62f9b9bfe4
   branch: query-parameter
@@ -90,6 +97,7 @@ DEPENDENCIES
   ruboty
   ruboty-asakusa_satellite!
   ruboty-google_image
+  ruboty-heroku_status!
   ruboty-syoboi_calendar
   socket.io-client-simple!
   websocket-client-simple!
