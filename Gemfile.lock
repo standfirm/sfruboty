@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/codefirst/ruboty-asakusa_satellite.git
-  revision: ef551caceefff98deb42ed7ff6c1f973d433bbcf
+  revision: 360b75be08605d3c24f5425876c7f2dcf4a98f32
   specs:
     ruboty-asakusa_satellite (0.0.1)
       ruboty
