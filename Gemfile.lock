@@ -7,7 +7,7 @@ GIT
 
 GIT
   remote: git://github.com/mallowlabs/ruboty-heroku_status.git
-  revision: 18f95cb0b08382a4d356e5a660b67f230638e6ff
+  revision: 441fd04647d1043b1b5c6f893032e8f2590beb9d
   specs:
     ruboty-heroku_status (0.0.1)
       ruboty
