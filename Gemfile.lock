@@ -22,6 +22,8 @@ GEM
       minitest (~> 5.1)
       thread_safe (~> 0.1)
       tzinfo (~> 1.1)
+    chrono (0.0.4)
+      activesupport
     dotenv (0.11.1)
       dotenv-deployment (~> 0.0.2)
     dotenv-deployment (0.0.2)
@@ -49,6 +51,10 @@ GEM
       dotenv
       mem
       slop
+    ruboty-cron (0.0.9)
+      activesupport
+      chrono
+      ruboty (>= 0.2.0)
     ruboty-google_image (0.0.7)
       faraday
       faraday_middleware
@@ -85,6 +91,7 @@ DEPENDENCIES
   foreman
   ruboty
   ruboty-asakusa_satellite!
+  ruboty-cron
   ruboty-google_image
   ruboty-heroku_status!
   ruboty-syoboi_calendar
