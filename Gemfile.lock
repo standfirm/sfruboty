@@ -1,9 +1,10 @@
 GIT
   remote: git://github.com/codefirst/ruboty-asakusa_satellite.git
-  revision: 360b75be08605d3c24f5425876c7f2dcf4a98f32
+  revision: 567e4aa14a709652d5893d5d3ec042ae17f18b11
   specs:
     ruboty-asakusa_satellite (0.0.1)
       ruboty
+      socket.io-client-simple (~> 0.0.6)
 
 GIT
   remote: git://github.com/mallowlabs/ruboty-heroku_status.git
@@ -11,26 +12,6 @@ GIT
   specs:
     ruboty-heroku_status (0.0.1)
       ruboty
-
-GIT
-  remote: git://github.com/mallowlabs/ruby-socket.io-client-simple.git
-  revision: f22edd51227358368f038b8469ecad62f9b9bfe4
-  branch: query-parameter
-  specs:
-    socket.io-client-simple (0.0.5)
-      event_emitter
-      httparty
-      json
-      websocket-client-simple (>= 0.0.9)
-
-GIT
-  remote: git://github.com/mallowlabs/websocket-client-simple.git
-  revision: d0f7441b435f7323d72ddf8635a47a27aa96eef8
-  branch: ssl
-  specs:
-    websocket-client-simple (0.1.0)
-      event_emitter
-      websocket
 
 GEM
   remote: https://rubygems.org/
@@ -52,7 +33,7 @@ GEM
     foreman (0.71.0)
       dotenv (~> 0.11.1)
       thor (~> 0.19.1)
-    hashie (2.1.1)
+    hashie (3.0.0)
     httparty (0.13.1)
       json (~> 1.8)
       multi_xml (>= 0.5.2)
@@ -77,6 +58,11 @@ GEM
       ruboty
       syoboi_calendar (= 0.3.1)
     slop (3.5.0)
+    socket.io-client-simple (0.0.6)
+      event_emitter
+      httparty
+      json
+      websocket-client-simple (>= 0.0.9)
     syoboi_calendar (0.3.1)
       activesupport
       faraday
@@ -88,6 +74,9 @@ GEM
     tzinfo (1.2.1)
       thread_safe (~> 0.1)
     websocket (1.1.4)
+    websocket-client-simple (0.2.0)
+      event_emitter
+      websocket
 
 PLATFORMS
   ruby
@@ -99,5 +88,3 @@ DEPENDENCIES
   ruboty-google_image
   ruboty-heroku_status!
   ruboty-syoboi_calendar
-  socket.io-client-simple!
-  websocket-client-simple!
