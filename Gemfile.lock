@@ -13,6 +13,13 @@ GIT
     ruboty-heroku_status (0.0.1)
       ruboty
 
+GIT
+  remote: git://github.com/mallowlabs/ruboty-lastfm.git
+  revision: fed959a13ef0448729acde0bdff7477e654a0ca2
+  specs:
+    ruboty-lastfm (0.0.1)
+      ruboty
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -94,4 +101,5 @@ DEPENDENCIES
   ruboty-cron
   ruboty-google_image
   ruboty-heroku_status!
+  ruboty-lastfm!
   ruboty-syoboi_calendar
