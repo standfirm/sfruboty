@@ -66,6 +66,10 @@ GEM
       faraday
       faraday_middleware
       ruboty
+    ruboty-lgtm (0.0.1)
+      faraday
+      faraday_middleware
+      ruboty
     ruboty-syoboi_calendar (0.0.5)
       activesupport
       ruboty
@@ -102,4 +106,5 @@ DEPENDENCIES
   ruboty-google_image
   ruboty-heroku_status!
   ruboty-lastfm!
+  ruboty-lgtm
   ruboty-syoboi_calendar

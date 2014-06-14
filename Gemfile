@@ -6,6 +6,7 @@ gem "ruboty-asakusa_satellite", github: 'codefirst/ruboty-asakusa_satellite'
 gem "ruboty-google_image"
 gem "ruboty-syoboi_calendar"
 gem "ruboty-cron"
+gem "ruboty-lgtm"
 gem 'ruboty-heroku_status', github: 'mallowlabs/ruboty-heroku_status'
 gem 'ruboty-lastfm', github: 'mallowlabs/ruboty-lastfm'
 
