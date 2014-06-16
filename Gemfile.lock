@@ -20,6 +20,13 @@ GIT
     ruboty-lastfm (0.0.1)
       ruboty
 
+GIT
+  remote: git://github.com/mallowlabs/ruboty-nullpo.git
+  revision: 312e56e7b62ec199698a2c03ca41aa9990b31ac2
+  specs:
+    ruboty-nullpo (0.0.1)
+      ruboty
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -114,5 +121,6 @@ DEPENDENCIES
   ruboty-heroku_status!
   ruboty-lastfm!
   ruboty-lgtm
+  ruboty-nullpo!
   ruboty-redis
   ruboty-syoboi_calendar

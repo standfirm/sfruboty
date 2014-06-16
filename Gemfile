@@ -10,5 +10,6 @@ gem "ruboty-cron"
 gem "ruboty-lgtm"
 gem 'ruboty-heroku_status', github: 'mallowlabs/ruboty-heroku_status'
 gem 'ruboty-lastfm', github: 'mallowlabs/ruboty-lastfm'
+gem 'ruboty-nullpo', github: 'mallowlabs/ruboty-nullpo'
 
 gem "foreman"
