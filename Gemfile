@@ -3,6 +3,7 @@ gem "ruboty"
 gem "ruboty-asakusa_satellite", github: 'codefirst/ruboty-asakusa_satellite'
 
 # ruboty plugins
+gem "ruboty-redis"
 gem "ruboty-google_image"
 gem "ruboty-syoboi_calendar"
 gem "ruboty-cron"

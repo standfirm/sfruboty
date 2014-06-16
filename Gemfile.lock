@@ -52,6 +52,9 @@ GEM
     minitest (5.3.4)
     multi_xml (0.5.5)
     multipart-post (2.0.0)
+    redis (3.0.7)
+    redis-namespace (1.4.1)
+      redis (~> 3.0.4)
     ruboty (1.0.1)
       activesupport
       bundler
@@ -69,6 +72,10 @@ GEM
     ruboty-lgtm (0.0.1)
       faraday
       faraday_middleware
+      ruboty
+    ruboty-redis (0.0.4)
+      redis
+      redis-namespace
       ruboty
     ruboty-syoboi_calendar (0.0.5)
       activesupport
@@ -107,4 +114,5 @@ DEPENDENCIES
   ruboty-heroku_status!
   ruboty-lastfm!
   ruboty-lgtm
+  ruboty-redis
   ruboty-syoboi_calendar
