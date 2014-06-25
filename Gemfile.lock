@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/codefirst/ruboty-asakusa_satellite.git
-  revision: 567e4aa14a709652d5893d5d3ec042ae17f18b11
+  revision: 02afa188475e906075490a3d6ec1039a973b5f5f
   specs:
     ruboty-asakusa_satellite (0.0.1)
       ruboty
@@ -8,23 +8,31 @@ GIT
 
 GIT
   remote: git://github.com/mallowlabs/ruboty-heroku_status.git
-  revision: 441fd04647d1043b1b5c6f893032e8f2590beb9d
+  revision: e179e562ea0f02d7aef375e02e8a95c6f972becd
   specs:
     ruboty-heroku_status (0.0.1)
       ruboty
 
 GIT
   remote: git://github.com/mallowlabs/ruboty-lastfm.git
-  revision: fed959a13ef0448729acde0bdff7477e654a0ca2
+  revision: 76c6f1cbb7cfe743362f0374f27e145c49350509
   specs:
     ruboty-lastfm (0.0.1)
       ruboty
 
 GIT
   remote: git://github.com/mallowlabs/ruboty-nullpo.git
-  revision: 312e56e7b62ec199698a2c03ca41aa9990b31ac2
+  revision: 653a5d5e975a2eb121b014f9d63dc1149dfd63b0
   specs:
     ruboty-nullpo (0.0.1)
+      ruboty
+
+GIT
+  remote: git://github.com/shimomura1004/ruboty-asakusa_satellite_profile.git
+  revision: d2385395187c44e5696a2c2cd1df119c4e62327a
+  specs:
+    ruboty-asakusa_satellite_profile (0.0.1)
+      rest-client
       ruboty
 
 GEM
@@ -46,7 +54,7 @@ GEM
       multipart-post (>= 1.2, < 3)
     faraday_middleware (0.9.1)
       faraday (>= 0.7.4, < 0.10)
-    foreman (0.71.0)
+    foreman (0.74.0)
       dotenv (~> 0.11.1)
       thor (~> 0.19.1)
     hashie (3.0.0)
@@ -56,13 +64,16 @@ GEM
     i18n (0.6.9)
     json (1.8.1)
     mem (0.1.1)
-    minitest (5.3.4)
+    mime-types (2.3)
+    minitest (5.3.5)
     multi_xml (0.5.5)
     multipart-post (2.0.0)
-    redis (3.0.7)
-    redis-namespace (1.4.1)
-      redis (~> 3.0.4)
-    ruboty (1.0.1)
+    redis (3.1.0)
+    redis-namespace (1.5.0)
+      redis (~> 3.0, >= 3.0.4)
+    rest-client (1.6.7)
+      mime-types (>= 1.16)
+    ruboty (1.0.2)
       activesupport
       bundler
       dotenv
@@ -76,7 +87,7 @@ GEM
       faraday
       faraday_middleware
       ruboty
-    ruboty-lgtm (0.0.1)
+    ruboty-lgtm (0.0.3)
       faraday
       faraday_middleware
       ruboty
@@ -116,6 +127,7 @@ DEPENDENCIES
   foreman
   ruboty
   ruboty-asakusa_satellite!
+  ruboty-asakusa_satellite_profile!
   ruboty-cron
   ruboty-google_image
   ruboty-heroku_status!
