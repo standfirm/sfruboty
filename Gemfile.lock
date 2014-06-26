@@ -35,6 +35,13 @@ GIT
       rest-client
       ruboty
 
+GIT
+  remote: git://github.com/shimomura1004/ruboty-todo.git
+  revision: 497e5a55580ab5f9f1b362636e0ea420bd0a647f
+  specs:
+    ruboty-todo (0.0.1)
+      ruboty (>= 0.2.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -136,3 +143,4 @@ DEPENDENCIES
   ruboty-nullpo!
   ruboty-redis
   ruboty-syoboi_calendar
+  ruboty-todo!
