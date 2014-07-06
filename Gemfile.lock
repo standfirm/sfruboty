@@ -28,6 +28,12 @@ GIT
       ruboty
 
 GIT
+  remote: git://github.com/mzp/ruboty-misawa.git
+  revision: bb64635a99441087a956e8ede162210e2d059847
+  specs:
+    ruboty-misawa (0.0.1)
+
+GIT
   remote: git://github.com/shimomura1004/ruboty-asakusa_satellite_profile.git
   revision: d2385395187c44e5696a2c2cd1df119c4e62327a
   specs:
@@ -140,6 +146,7 @@ DEPENDENCIES
   ruboty-heroku_status!
   ruboty-lastfm!
   ruboty-lgtm
+  ruboty-misawa!
   ruboty-nullpo!
   ruboty-redis
   ruboty-syoboi_calendar

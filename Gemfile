@@ -13,5 +13,6 @@ gem 'ruboty-lastfm', github: 'mallowlabs/ruboty-lastfm'
 gem 'ruboty-nullpo', github: 'mallowlabs/ruboty-nullpo'
 gem 'ruboty-asakusa_satellite_profile', github: 'shimomura1004/ruboty-asakusa_satellite_profile'
 gem 'ruboty-todo', github: 'shimomura1004/ruboty-todo'
+gem 'ruboty-misawa', github: 'mzp/ruboty-misawa'
 
 gem "foreman"
