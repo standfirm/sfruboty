@@ -28,6 +28,13 @@ GIT
       ruboty
 
 GIT
+  remote: git://github.com/mallowlabs/ruboty-zoi.git
+  revision: 7f1fd934c9465ec2659039a00d77f8eca43ba87b
+  specs:
+    ruboty-zoi (0.0.1)
+      ruboty
+
+GIT
   remote: git://github.com/mzp/ruboty-misawa.git
   revision: bb64635a99441087a956e8ede162210e2d059847
   specs:
@@ -161,3 +168,4 @@ DEPENDENCIES
   ruboty-redis
   ruboty-syoboi_calendar
   ruboty-todo!
+  ruboty-zoi!
