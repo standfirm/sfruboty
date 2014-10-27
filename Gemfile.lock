@@ -1,26 +1,4 @@
 GIT
-  remote: git://github.com/codefirst/ruboty-asakusa_satellite.git
-  revision: 02afa188475e906075490a3d6ec1039a973b5f5f
-  specs:
-    ruboty-asakusa_satellite (0.0.1)
-      ruboty
-      socket.io-client-simple (~> 0.0.6)
-
-GIT
-  remote: git://github.com/mallowlabs/ruboty-heroku_status.git
-  revision: e179e562ea0f02d7aef375e02e8a95c6f972becd
-  specs:
-    ruboty-heroku_status (0.0.1)
-      ruboty
-
-GIT
-  remote: git://github.com/mallowlabs/ruboty-lastfm.git
-  revision: 76c6f1cbb7cfe743362f0374f27e145c49350509
-  specs:
-    ruboty-lastfm (0.0.1)
-      ruboty
-
-GIT
   remote: git://github.com/mallowlabs/ruboty-nullpo.git
   revision: 717e09dba8a2f421e07ee7b489233381fb9cb189
   specs:
@@ -41,26 +19,11 @@ GIT
     ruboty-misawa (0.0.1)
 
 GIT
-  remote: git://github.com/shimomura1004/ruboty-asakusa_satellite_profile.git
-  revision: d2385395187c44e5696a2c2cd1df119c4e62327a
-  specs:
-    ruboty-asakusa_satellite_profile (0.0.1)
-      rest-client
-      ruboty
-
-GIT
   remote: git://github.com/shimomura1004/ruboty-balloon.git
   revision: 988df2cab5e0120adb6afc35315da20fb94deab3
   specs:
     ruboty-balloon (0.0.1)
       ruboty
-
-GIT
-  remote: git://github.com/shimomura1004/ruboty-todo.git
-  revision: 9539d3d0d58b452a0b802a8bada7e1887ed1e406
-  specs:
-    ruboty-todo (0.0.1)
-      ruboty (>= 0.2.0)
 
 GEM
   remote: https://rubygems.org/
@@ -76,7 +39,6 @@ GEM
     dotenv (0.11.1)
       dotenv-deployment (~> 0.0.2)
     dotenv-deployment (0.0.2)
-    event_emitter (0.2.5)
     faraday (0.9.0)
       multipart-post (>= 1.2, < 3)
     faraday_middleware (0.9.1)
@@ -85,23 +47,15 @@ GEM
       dotenv (~> 0.11.1)
       thor (~> 0.19.1)
     hashie (3.2.0)
-    httparty (0.13.1)
-      json (~> 1.8)
-      multi_xml (>= 0.5.2)
     i18n (0.6.11)
     json (1.8.1)
     mem (0.1.5)
-    mime-types (2.3)
     minitest (5.4.0)
     multi_xml (0.5.5)
     multipart-post (2.0.0)
-    netrc (0.7.7)
     redis (3.1.0)
     redis-namespace (1.5.0)
       redis (~> 3.0, >= 3.0.4)
-    rest-client (1.7.1)
-      mime-types (>= 1.16, < 3.0)
-      netrc (~> 0.7)
     ruboty (1.0.3)
       activesupport
       bundler
@@ -124,16 +78,14 @@ GEM
       redis
       redis-namespace
       ruboty
+    ruboty-slack (0.1.6)
+      ruboty
+      xrc (>= 0.0.6)
     ruboty-syoboi_calendar (0.0.5)
       activesupport
       ruboty
       syoboi_calendar (= 0.3.1)
     slop (3.6.0)
-    socket.io-client-simple (0.0.6)
-      event_emitter
-      httparty
-      json
-      websocket-client-simple (>= 0.0.9)
     syoboi_calendar (0.3.1)
       activesupport
       faraday
@@ -144,10 +96,8 @@ GEM
     thread_safe (0.3.4)
     tzinfo (1.2.2)
       thread_safe (~> 0.1)
-    websocket (1.1.4)
-    websocket-client-simple (0.2.0)
-      event_emitter
-      websocket
+    xrc (0.1.4)
+      activesupport
 
 PLATFORMS
   ruby
@@ -155,17 +105,13 @@ PLATFORMS
 DEPENDENCIES
   foreman
   ruboty
-  ruboty-asakusa_satellite!
-  ruboty-asakusa_satellite_profile!
   ruboty-balloon!
   ruboty-cron
   ruboty-google_image
-  ruboty-heroku_status!
-  ruboty-lastfm!
   ruboty-lgtm
   ruboty-misawa!
   ruboty-nullpo!
   ruboty-redis
+  ruboty-slack
   ruboty-syoboi_calendar
-  ruboty-todo!
   ruboty-zoi!
