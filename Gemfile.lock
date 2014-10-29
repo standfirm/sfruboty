@@ -13,6 +13,13 @@ GIT
       ruboty
 
 GIT
+  remote: git://github.com/moro/tokiyomi.git
+  revision: ee664b481ce5661781880499159e3875f6e0707e
+  specs:
+    tokiyomi (0.1.0)
+      activesupport
+
+GIT
   remote: git://github.com/mzp/ruboty-misawa.git
   revision: bb64635a99441087a956e8ede162210e2d059847
   specs:
@@ -70,6 +77,10 @@ GEM
       faraday
       faraday_middleware
       ruboty
+    ruboty-kintai (1.0.1)
+      activesupport
+      ruboty
+      tokiyomi
     ruboty-lgtm (0.0.3)
       faraday
       faraday_middleware
@@ -108,6 +119,7 @@ DEPENDENCIES
   ruboty-balloon!
   ruboty-cron
   ruboty-google_image
+  ruboty-kintai
   ruboty-lgtm
   ruboty-misawa!
   ruboty-nullpo!
@@ -115,3 +127,4 @@ DEPENDENCIES
   ruboty-slack
   ruboty-syoboi_calendar
   ruboty-zoi!
+  tokiyomi!
