@@ -13,13 +13,6 @@ GIT
       ruboty
 
 GIT
-  remote: git://github.com/moro/tokiyomi.git
-  revision: ee664b481ce5661781880499159e3875f6e0707e
-  specs:
-    tokiyomi (0.1.0)
-      activesupport
-
-GIT
   remote: git://github.com/mzp/ruboty-misawa.git
   revision: bb64635a99441087a956e8ede162210e2d059847
   specs:
@@ -34,7 +27,7 @@ GIT
 
 GIT
   remote: git://github.com/standfirm/ruboty-github.git
-  revision: b2844e0fc849cc16201863432757bb98e703b4a0
+  revision: c2ccb651b3ef9a94b52ce9cd2f6b361e26a0fde2
   specs:
     ruboty-github (0.1.0)
       activesupport
@@ -51,8 +44,6 @@ GEM
       thread_safe (~> 0.1)
       tzinfo (~> 1.1)
     addressable (2.3.6)
-    chrono (0.0.4)
-      activesupport
     dotenv (1.0.2)
     faraday (0.9.0)
       multipart-post (>= 1.2, < 3)
@@ -61,12 +52,10 @@ GEM
     foreman (0.76.0)
       dotenv (~> 1.0.2)
       thor (~> 0.19.1)
-    hashie (3.3.2)
     i18n (0.6.11)
     json (1.8.1)
     mem (0.1.5)
     minitest (5.4.3)
-    multi_xml (0.5.5)
     multipart-post (2.0.0)
     octokit (3.5.2)
       sawyer (~> 0.5.3)
@@ -81,18 +70,10 @@ GEM
       slop
     ruboty-alias (0.0.3)
       ruboty
-    ruboty-cron (0.0.9)
-      activesupport
-      chrono
-      ruboty (>= 0.2.0)
     ruboty-google_image (0.0.7)
       faraday
       faraday_middleware
       ruboty
-    ruboty-kintai (1.0.1)
-      activesupport
-      ruboty
-      tokiyomi
     ruboty-lgtm (0.0.3)
       faraday
       faraday_middleware
@@ -104,20 +85,10 @@ GEM
     ruboty-slack (0.1.7)
       ruboty (>= 1.0.4)
       xrc (>= 0.0.6)
-    ruboty-syoboi_calendar (0.0.7)
-      activesupport
-      ruboty
-      syoboi_calendar (= 0.3.1)
     sawyer (0.5.5)
       addressable (~> 2.3.5)
       faraday (~> 0.8, < 0.10)
     slop (3.6.0)
-    syoboi_calendar (0.3.1)
-      activesupport
-      faraday
-      faraday_middleware
-      hashie
-      multi_xml
     thor (0.19.1)
     thread_safe (0.3.4)
     tzinfo (1.2.2)
@@ -133,15 +104,11 @@ DEPENDENCIES
   ruboty
   ruboty-alias
   ruboty-balloon!
-  ruboty-cron
   ruboty-github!
   ruboty-google_image
-  ruboty-kintai
   ruboty-lgtm
   ruboty-misawa!
   ruboty-nullpo!
   ruboty-redis
   ruboty-slack
-  ruboty-syoboi_calendar
   ruboty-zoi!
-  tokiyomi!
