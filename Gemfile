@@ -14,5 +14,7 @@ gem 'ruboty-balloon', github: 'shimomura1004/ruboty-balloon'
 gem 'ruboty-zoi', github: 'mallowlabs/ruboty-zoi'
 gem 'ruboty-kintai'
 gem 'tokiyomi', github: 'moro/tokiyomi'
+gem 'ruboty-alias'
+gem 'ruboty-github', github: 'standfirm/ruboty-github'
 
 gem "foreman"
