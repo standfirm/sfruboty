@@ -27,7 +27,7 @@ GIT
 
 GIT
   remote: git://github.com/standfirm/ruboty-github.git
-  revision: c2ccb651b3ef9a94b52ce9cd2f6b361e26a0fde2
+  revision: 5b281d095dbfb621a084dca9cac58d37ee173d70
   specs:
     ruboty-github (0.1.0)
       activesupport
