@@ -27,7 +27,7 @@ GIT
 
 GIT
   remote: git://github.com/standfirm/ruboty-github.git
-  revision: 5b281d095dbfb621a084dca9cac58d37ee173d70
+  revision: 0e1e7f2352d3fb0b434a325a38114fa8cb4d0604
   specs:
     ruboty-github (0.1.0)
       activesupport
@@ -37,39 +37,39 @@ GIT
 GEM
   remote: https://rubygems.org/
   specs:
-    activesupport (4.1.8)
-      i18n (~> 0.6, >= 0.6.9)
+    activesupport (4.2.0)
+      i18n (~> 0.7)
       json (~> 1.7, >= 1.7.7)
       minitest (~> 5.1)
-      thread_safe (~> 0.1)
+      thread_safe (~> 0.3, >= 0.3.4)
       tzinfo (~> 1.1)
     addressable (2.3.6)
     dotenv (1.0.2)
-    faraday (0.9.0)
+    faraday (0.9.1)
       multipart-post (>= 1.2, < 3)
     faraday_middleware (0.9.1)
       faraday (>= 0.7.4, < 0.10)
-    foreman (0.76.0)
+    foreman (0.77.0)
       dotenv (~> 1.0.2)
       thor (~> 0.19.1)
-    i18n (0.6.11)
-    json (1.8.1)
+    i18n (0.7.0)
+    json (1.8.2)
     mem (0.1.5)
-    minitest (5.4.3)
+    minitest (5.5.1)
     multipart-post (2.0.0)
-    octokit (3.5.2)
-      sawyer (~> 0.5.3)
-    redis (3.1.0)
+    octokit (3.7.0)
+      sawyer (~> 0.6.0, >= 0.5.3)
+    redis (3.2.0)
     redis-namespace (1.5.1)
       redis (~> 3.0, >= 3.0.4)
-    ruboty (1.0.4)
+    ruboty (1.1.4)
       activesupport
       bundler
       dotenv
       mem
       slop
-    ruboty-alias (0.0.3)
-      ruboty
+    ruboty-alias (0.0.6)
+      ruboty (>= 1.1.1)
     ruboty-google_image (0.0.7)
       faraday
       faraday_middleware
@@ -85,10 +85,10 @@ GEM
     ruboty-slack (0.1.7)
       ruboty (>= 1.0.4)
       xrc (>= 0.0.6)
-    sawyer (0.5.5)
+    sawyer (0.6.0)
       addressable (~> 2.3.5)
       faraday (~> 0.8, < 0.10)
-    slop (3.6.0)
+    slop (4.0.0)
     thor (0.19.1)
     thread_safe (0.3.4)
     tzinfo (1.2.2)
