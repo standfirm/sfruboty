@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/mallowlabs/ruboty-nullpo.git
-  revision: 717e09dba8a2f421e07ee7b489233381fb9cb189
+  revision: 7e1b2c9dc31a9004be1d29ede439ee587401aef9
   specs:
     ruboty-nullpo (0.0.1)
       ruboty
@@ -43,7 +43,7 @@ GEM
       minitest (~> 5.1)
       thread_safe (~> 0.3, >= 0.3.4)
       tzinfo (~> 1.1)
-    addressable (2.3.6)
+    addressable (2.3.7)
     dotenv (1.0.2)
     faraday (0.9.1)
       multipart-post (>= 1.2, < 3)
@@ -57,12 +57,12 @@ GEM
     mem (0.1.5)
     minitest (5.5.1)
     multipart-post (2.0.0)
-    octokit (3.7.0)
+    octokit (3.8.0)
       sawyer (~> 0.6.0, >= 0.5.3)
-    redis (3.2.0)
+    redis (3.2.1)
     redis-namespace (1.5.1)
       redis (~> 3.0, >= 3.0.4)
-    ruboty (1.1.4)
+    ruboty (1.1.9)
       activesupport
       bundler
       dotenv
