@@ -6,6 +6,7 @@ gem "ruboty-slack"
 gem "ruboty-redis"
 gem "ruboty-google_image"
 gem "ruboty-cron"
+gem "ruboty-echo"
 gem "ruboty-lgtm"
 gem 'ruboty-nullpo', github: 'mallowlabs/ruboty-nullpo'
 gem 'ruboty-misawa', github: 'mzp/ruboty-misawa'
