@@ -6,6 +6,13 @@ GIT
       ruboty
 
 GIT
+  remote: git://github.com/mallowlabs/ruboty-sorena.git
+  revision: a111a97432de7773993f771e3b8cc01bce34943b
+  specs:
+    ruboty-sorena (0.0.1)
+      ruboty
+
+GIT
   remote: git://github.com/mallowlabs/ruboty-zoi.git
   revision: 55c8b41c8ea3900be6c355dab9ed6f4515543547
   specs:
@@ -44,6 +51,8 @@ GEM
       thread_safe (~> 0.3, >= 0.3.4)
       tzinfo (~> 1.1)
     addressable (2.3.7)
+    chrono (0.0.4)
+      activesupport
     dotenv (1.0.2)
     faraday (0.9.1)
       multipart-post (>= 1.2, < 3)
@@ -70,6 +79,10 @@ GEM
       slop
     ruboty-alias (0.0.6)
       ruboty (>= 1.1.1)
+    ruboty-cron (1.0.0)
+      activesupport
+      chrono
+      ruboty (>= 0.2.0)
     ruboty-google_image (0.0.7)
       faraday
       faraday_middleware
@@ -104,6 +117,7 @@ DEPENDENCIES
   ruboty
   ruboty-alias
   ruboty-balloon!
+  ruboty-cron
   ruboty-github!
   ruboty-google_image
   ruboty-lgtm
@@ -111,4 +125,5 @@ DEPENDENCIES
   ruboty-nullpo!
   ruboty-redis
   ruboty-slack
+  ruboty-sorena!
   ruboty-zoi!
