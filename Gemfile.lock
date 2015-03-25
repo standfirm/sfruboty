@@ -26,6 +26,13 @@ GIT
     ruboty-misawa (0.0.1)
 
 GIT
+  remote: git://github.com/mzp/ruboty-shinchoku.git
+  revision: 1c49519bfec2a1aee48e181c9caa510208ca5af9
+  specs:
+    ruboty-shinchoku (0.1.0)
+      ruboty
+
+GIT
   remote: git://github.com/shimomura1004/ruboty-balloon.git
   revision: 988df2cab5e0120adb6afc35315da20fb94deab3
   specs:
@@ -127,6 +134,7 @@ DEPENDENCIES
   ruboty-misawa!
   ruboty-nullpo!
   ruboty-redis
+  ruboty-shinchoku!
   ruboty-slack
   ruboty-sorena!
   ruboty-zoi!

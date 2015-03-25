@@ -15,5 +15,6 @@ gem 'ruboty-zoi', github: 'mallowlabs/ruboty-zoi'
 gem 'ruboty-github', github: 'standfirm/ruboty-github'
 gem 'ruboty-alias'
 gem 'ruboty-sorena', github: 'mallowlabs/ruboty-sorena'
+gem 'ruboty-shinchoku', github: 'mzp/ruboty-shinchoku'
 
 gem "foreman"
