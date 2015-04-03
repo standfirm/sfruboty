@@ -20,6 +20,14 @@ GIT
       ruboty
 
 GIT
+  remote: git://github.com/mzp/ruboty-growthforecast.git
+  revision: 6ea60b99a446d2ef9b8f1f4d6f5d37a87e669de2
+  specs:
+    ruboty-growthforecast (0.1.0)
+      growthforecast
+      ruboty
+
+GIT
   remote: git://github.com/mzp/ruboty-misawa.git
   revision: bb64635a99441087a956e8ede162210e2d059847
   specs:
@@ -69,6 +77,8 @@ GEM
     foreman (0.77.0)
       dotenv (~> 1.0.2)
       thor (~> 0.19.1)
+    growthforecast (0.0.4)
+      resolve-hostname
     i18n (0.7.0)
     json (1.8.2)
     jwt (1.4.1)
@@ -81,6 +91,7 @@ GEM
     redis (3.2.1)
     redis-namespace (1.5.1)
       redis (~> 3.0, >= 3.0.4)
+    resolve-hostname (0.0.4)
     ruboty (1.2.1)
       activesupport
       bundler
@@ -141,6 +152,7 @@ DEPENDENCIES
   ruboty-echo
   ruboty-github!
   ruboty-google_image
+  ruboty-growthforecast!
   ruboty-lgtm
   ruboty-misawa!
   ruboty-nullpo!

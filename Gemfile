@@ -17,5 +17,6 @@ gem 'ruboty-alias'
 gem 'ruboty-sorena', github: 'mallowlabs/ruboty-sorena'
 gem 'ruboty-shinchoku', github: 'mzp/ruboty-shinchoku'
 gem 'ruboty-call'
+gem 'ruboty-growthforecast', github: 'mzp/ruboty-growthforecast'
 
 gem "foreman"
