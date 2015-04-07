@@ -21,7 +21,7 @@ GIT
 
 GIT
   remote: git://github.com/mzp/ruboty-growthforecast.git
-  revision: 6ea60b99a446d2ef9b8f1f4d6f5d37a87e669de2
+  revision: 84f68fa03b674065eed3fa2525727b470fc999e6
   specs:
     ruboty-growthforecast (0.1.0)
       growthforecast
