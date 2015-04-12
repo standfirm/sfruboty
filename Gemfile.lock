@@ -41,6 +41,13 @@ GIT
       ruboty
 
 GIT
+  remote: git://github.com/mzp/ruboty-wei.git
+  revision: 9bb8a244a6b16c641ce210001d94ca5c54e93c9c
+  specs:
+    ruboty-wei (0.0.1)
+      ruboty
+
+GIT
   remote: git://github.com/shimomura1004/ruboty-balloon.git
   revision: 988df2cab5e0120adb6afc35315da20fb94deab3
   specs:
@@ -159,4 +166,5 @@ DEPENDENCIES
   ruboty-shinchoku!
   ruboty-slack
   ruboty-sorena!
+  ruboty-wei!
   ruboty-zoi!
