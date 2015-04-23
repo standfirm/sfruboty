@@ -56,7 +56,7 @@ GIT
 
 GIT
   remote: git://github.com/standfirm/ruboty-github.git
-  revision: 0e1e7f2352d3fb0b434a325a38114fa8cb4d0604
+  revision: 159cb8b3a3f5bbca37341aa103a145a5c2c99fc7
   specs:
     ruboty-github (0.1.0)
       activesupport
@@ -89,7 +89,7 @@ GEM
     json (1.8.2)
     jwt (1.4.1)
     mem (0.1.5)
-    minitest (5.5.1)
+    minitest (5.6.0)
     multi_json (1.11.0)
     multipart-post (2.0.0)
     octokit (3.8.0)
@@ -98,7 +98,7 @@ GEM
     redis-namespace (1.5.2)
       redis (~> 3.0, >= 3.0.4)
     resolve-hostname (0.0.4)
-    ruboty (1.2.1)
+    ruboty (1.2.2)
       activesupport
       bundler
       dotenv
@@ -133,7 +133,7 @@ GEM
     sawyer (0.6.0)
       addressable (~> 2.3.5)
       faraday (~> 0.8, < 0.10)
-    slop (4.0.0)
+    slop (4.1.0)
     thor (0.19.1)
     thread_safe (0.3.5)
     twilio-ruby (3.16.1)
