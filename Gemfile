@@ -19,5 +19,6 @@ gem 'ruboty-shinchoku', github: 'mzp/ruboty-shinchoku'
 gem 'ruboty-call'
 gem 'ruboty-growthforecast', github: 'mzp/ruboty-growthforecast'
 gem 'ruboty-wei', github: 'mzp/ruboty-wei'
+gem 'ruboty-replace'
 
 gem "foreman"
