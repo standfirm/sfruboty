@@ -63,9 +63,20 @@ GIT
       octokit
       ruboty
 
+GIT
+  remote: git://github.com/standfirm/ruboty-trello_quote.git
+  revision: cfadb2d657d80091d0b57492883c088f6051596f
+  specs:
+    ruboty-trello_quote (0.0.1)
+      ruboty
+      ruby-trello
+
 GEM
   remote: https://rubygems.org/
   specs:
+    activemodel (4.2.1)
+      activesupport (= 4.2.1)
+      builder (~> 3.1)
     activesupport (4.2.1)
       i18n (~> 0.7)
       json (~> 1.7, >= 1.7.7)
@@ -89,15 +100,21 @@ GEM
     json (1.8.2)
     jwt (1.4.1)
     mem (0.1.5)
+    mime-types (2.4.3)
     minitest (5.6.0)
     multi_json (1.11.0)
     multipart-post (2.0.0)
+    netrc (0.10.3)
+    oauth (0.4.7)
     octokit (3.8.0)
       sawyer (~> 0.6.0, >= 0.5.3)
     redis (3.2.1)
     redis-namespace (1.5.2)
       redis (~> 3.0, >= 3.0.4)
     resolve-hostname (0.0.4)
+    rest-client (1.7.3)
+      mime-types (>= 1.16, < 3.0)
+      netrc (~> 0.7)
     ruboty (1.2.2)
       activesupport
       bundler
@@ -132,6 +149,12 @@ GEM
     ruboty-slack (0.1.7)
       ruboty (>= 1.0.4)
       xrc (>= 0.0.6)
+    ruby-trello (1.2.1)
+      activemodel (>= 3.2.0)
+      addressable (~> 2.3)
+      json
+      oauth (~> 0.4.5)
+      rest-client (~> 1.7.2)
     sawyer (0.6.0)
       addressable (~> 2.3.5)
       faraday (~> 0.8, < 0.10)
@@ -169,5 +192,6 @@ DEPENDENCIES
   ruboty-shinchoku!
   ruboty-slack
   ruboty-sorena!
+  ruboty-trello_quote!
   ruboty-wei!
   ruboty-zoi!
