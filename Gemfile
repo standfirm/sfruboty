@@ -19,6 +19,7 @@ gem 'ruboty-sorena', github: 'mallowlabs/ruboty-sorena'
 gem 'ruboty-shinchoku', github: 'mzp/ruboty-shinchoku'
 gem 'ruboty-call'
 gem 'ruboty-growthforecast', github: 'mzp/ruboty-growthforecast'
+gem "ruboty-google_spreadsheet", github: 'mzp/ruboty-google_spreadsheet'
 gem 'ruboty-wei', github: 'mzp/ruboty-wei'
 gem 'ruboty-trello_quote', github: 'standfirm/ruboty-trello_quote'
 
