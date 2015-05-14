@@ -72,6 +72,13 @@ GIT
       ruboty
 
 GIT
+  remote: git://github.com/standfirm/ruboty-health_check.git
+  revision: 52418711b736be04ec7c5bf6bb9ba5de5c7e82e1
+  specs:
+    ruboty-health_check (0.0.1)
+      ruboty
+
+GIT
   remote: git://github.com/standfirm/ruboty-trello_quote.git
   revision: d5750783f870afca6b0fee04e7b5eed95f8ac99c
   specs:
@@ -145,7 +152,7 @@ GEM
     memoist (0.12.0)
     mime-types (2.4.3)
     mini_portile (0.6.2)
-    minitest (5.6.0)
+    minitest (5.6.1)
     multi_json (1.11.0)
     multi_xml (0.5.5)
     multipart-post (2.0.0)
@@ -246,6 +253,7 @@ DEPENDENCIES
   ruboty-google_image
   ruboty-google_spreadsheet!
   ruboty-growthforecast!
+  ruboty-health_check!
   ruboty-lgtm
   ruboty-misawa!
   ruboty-nullpo!
