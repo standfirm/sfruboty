@@ -21,7 +21,7 @@ GIT
 
 GIT
   remote: git://github.com/mzp/ruboty-google_spreadsheet.git
-  revision: ad7ebee72cc21f9f818b1a513bff91778148a2bd
+  revision: 9d8086a627349b5a44d1fe4dbdea0b0d1b8ebf80
   specs:
     ruboty-google_spreadsheet (0.1.2)
       google_drive
@@ -141,7 +141,7 @@ GEM
       resolve-hostname
     i18n (0.7.0)
     json (1.8.2)
-    jwt (1.4.1)
+    jwt (1.5.0)
     launchy (2.4.3)
       addressable (~> 2.3)
     little-plugger (1.1.3)
