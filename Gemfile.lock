@@ -73,7 +73,7 @@ GIT
 
 GIT
   remote: git://github.com/standfirm/ruboty-health_check.git
-  revision: 52418711b736be04ec7c5bf6bb9ba5de5c7e82e1
+  revision: e227bf704cc9470fddcb54802f3a69043738dbba
   specs:
     ruboty-health_check (0.0.1)
       ruboty
