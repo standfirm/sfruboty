@@ -23,6 +23,7 @@ gem "ruboty-google_spreadsheet", github: 'mzp/ruboty-google_spreadsheet'
 gem 'ruboty-wei', github: 'mzp/ruboty-wei'
 gem 'ruboty-trello_quote', github: 'standfirm/ruboty-trello_quote'
 gem 'ruboty-health_check', github: 'standfirm/ruboty-health_check'
+gem 'ruboty-aws', github: 'mzp/ruboty-aws'
 
 
 gem "foreman"
