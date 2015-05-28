@@ -1,4 +1,11 @@
 GIT
+  remote: git://github.com/eitoball/ruboty-hatebu_total_count.git
+  revision: 12528a619ee99574d5ec93df032ed30520d74460
+  specs:
+    ruboty-hatebu_total_count (0.1.0)
+      ruboty
+
+GIT
   remote: git://github.com/mallowlabs/ruboty-nullpo.git
   revision: 7e1b2c9dc31a9004be1d29ede439ee587401aef9
   specs:
@@ -272,6 +279,7 @@ DEPENDENCIES
   ruboty-google_image
   ruboty-google_spreadsheet!
   ruboty-growthforecast!
+  ruboty-hatebu_total_count!
   ruboty-health_check!
   ruboty-lgtm
   ruboty-misawa!
