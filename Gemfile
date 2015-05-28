@@ -24,7 +24,7 @@ gem 'ruboty-wei', github: 'mzp/ruboty-wei'
 gem 'ruboty-trello_quote', github: 'standfirm/ruboty-trello_quote'
 gem 'ruboty-health_check', github: 'standfirm/ruboty-health_check'
 gem 'ruboty-aws', github: 'mzp/ruboty-aws'
-gem 'ruboty-hatebu_total_count', github: 'eitoball/ruboty-hatebu_total_count'
+gem 'ruboty-hatebu_total_count', github: 'mzp/ruboty-hatebu_total_count', branch: 'fix_failure'
 
 
 gem "foreman"
