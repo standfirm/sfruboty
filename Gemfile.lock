@@ -233,7 +233,7 @@ GEM
       ruboty
     ruboty-replace (0.0.1)
       ruboty
-    ruboty-slack (0.1.11)
+    ruboty-slack (0.1.12)
       ruboty (>= 1.0.4)
       xrc (>= 0.1.8)
     ruby-trello (1.2.1)
@@ -292,6 +292,3 @@ DEPENDENCIES
   ruboty-trello_quote!
   ruboty-wei!
   ruboty-zoi!
-
-BUNDLED WITH
-   1.10.5
