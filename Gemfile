@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 ruby '2.2.2'
 gem 'ruboty'
+gem 'xrc', github: 'mzp/xrc'
 gem 'ruboty-slack'
 
 # ruboty plugins
