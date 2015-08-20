@@ -35,6 +35,15 @@ GIT
       ruboty
 
 GIT
+  remote: git://github.com/mzp/ruboty-cron.git
+  revision: 96334c812a9815d327b958be3315dd2e82dae00f
+  specs:
+    ruboty-cron (1.0.1)
+      activesupport
+      chrono
+      ruboty (>= 0.2.0)
+
+GIT
   remote: git://github.com/mzp/ruboty-google_spreadsheet.git
   revision: 9d8086a627349b5a44d1fe4dbdea0b0d1b8ebf80
   specs:
@@ -52,9 +61,10 @@ GIT
 
 GIT
   remote: git://github.com/mzp/ruboty-misawa.git
-  revision: bb64635a99441087a956e8ede162210e2d059847
+  revision: 3a88529dbe1bb3c1bbd780d4c9a8ffd5b83bbcf8
   specs:
     ruboty-misawa (0.0.1)
+      ruboty
 
 GIT
   remote: git://github.com/mzp/ruboty-shinchoku.git
@@ -220,10 +230,6 @@ GEM
     ruboty-call (1.0.0)
       ruboty
       twilio-ruby
-    ruboty-cron (1.0.0)
-      activesupport
-      chrono
-      ruboty (>= 0.2.0)
     ruboty-echo (0.1.0)
       ruboty
     ruboty-google_image (0.0.7)
@@ -278,7 +284,7 @@ DEPENDENCIES
   ruboty-aws!
   ruboty-balloon!
   ruboty-call
-  ruboty-cron
+  ruboty-cron!
   ruboty-echo
   ruboty-github!
   ruboty-google_image
