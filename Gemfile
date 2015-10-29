@@ -3,6 +3,7 @@ ruby '2.2.2'
 gem 'ruboty'
 gem 'xrc', github: 'mzp/xrc'
 gem 'ruboty-slack'
+gem 'disable-ssl', github: 'mzp/disable-ssl'
 
 # ruboty plugins
 gem 'ruboty-alias'
