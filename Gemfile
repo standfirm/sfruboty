@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 ruby '2.2.2'
 gem 'ruboty'
-gem 'xrc', github: 'mzp/xrc'
+gem 'xrc'
 gem 'ruboty-slack'
 gem 'disable-ssl', github: 'mzp/disable-ssl'
 
@@ -28,5 +28,6 @@ gem 'ruboty-sorena', github: 'mallowlabs/ruboty-sorena'
 gem 'ruboty-trello_quote', github: 'standfirm/ruboty-trello_quote'
 gem 'ruboty-wei', github: 'mzp/ruboty-wei'
 gem 'ruboty-zoi', github: 'mallowlabs/ruboty-zoi'
+gem 'ruboty-timeline', github: 'mzp/ruboty-timeline'
 
 gem "foreman"
