@@ -95,7 +95,7 @@ GIT
 
 GIT
   remote: git://github.com/standfirm/ruboty-github.git
-  revision: 4a2cc82d6783d0947ac2b5631c39fc84d50b4c0a
+  revision: 0889d761d6caff13c7233e8f72c087ff30351312
   specs:
     ruboty-github (0.1.0)
       activesupport
@@ -313,5 +313,8 @@ DEPENDENCIES
   ruboty-zoi!
   xrc
 
+RUBY VERSION
+   ruby 2.2.2p95
+
 BUNDLED WITH
-   1.10.5
+   1.12.5
