@@ -51,7 +51,7 @@ GIT
 
 GIT
   remote: git://github.com/mzp/ruboty-misawa.git
-  revision: 3a88529dbe1bb3c1bbd780d4c9a8ffd5b83bbcf8
+  revision: 5b39a2f03fa13b45804f8415352c2eaa5732152d
   specs:
     ruboty-misawa (0.0.1)
       ruboty
@@ -97,7 +97,7 @@ GIT
 
 GIT
   remote: git://github.com/standfirm/ruboty-health_check.git
-  revision: e227bf704cc9470fddcb54802f3a69043738dbba
+  revision: fd2e2fbb3a82ccb169b7aa9753b7e17ce6a1b883
   specs:
     ruboty-health_check (0.0.1)
       ruboty
