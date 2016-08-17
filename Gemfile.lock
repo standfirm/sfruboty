@@ -88,7 +88,7 @@ GIT
 
 GIT
   remote: git://github.com/standfirm/ruboty-github.git
-  revision: ce99a7686bd1668c884df589ae24f209deddf16b
+  revision: 2c6c293241e81d5e5d47fa6dccacd642aa1f57e4
   specs:
     ruboty-github (0.1.0)
       activesupport
@@ -261,7 +261,7 @@ GEM
       jwt (~> 1.0)
       multi_json (~> 1.10)
     slack-notifier (1.4.0)
-    slop (4.3.0)
+    slop (4.4.0)
     thor (0.19.1)
     thread_safe (0.3.5)
     twilio-ruby (3.16.1)
