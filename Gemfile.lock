@@ -104,7 +104,7 @@ GIT
 
 GIT
   remote: git://github.com/standfirm/ruboty-trello_quote.git
-  revision: 4d7a649061845ea3a8f4bb40ea7d724a42bf205f
+  revision: ac1588b0ea74b0aca9d4666099d0332d25f02d95
   specs:
     ruboty-trello_quote (0.0.1)
       ruboty
