@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 ruby '2.4.3'
 gem 'ruboty'
 gem 'xrc'
-gem 'ruboty-slack_rtm'
+gem 'ruboty-slack'
 gem 'disable-ssl', github: 'mzp/disable-ssl'
 
 # ruboty plugins
