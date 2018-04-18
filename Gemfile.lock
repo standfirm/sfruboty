@@ -683,11 +683,16 @@ GEM
     domain_name (0.5.20170404)
       unf (>= 0.0.5, < 1.0.0)
     dotenv (2.2.2)
+    event_emitter (0.2.6)
+    eventmachine (1.2.5)
     extlib (0.9.16)
     faraday (0.12.2)
       multipart-post (>= 1.2, < 3)
-    faraday_middleware (0.12.2)
+    faraday_middleware (0.10.1)
       faraday (>= 0.7.4, < 1.0)
+    faye-websocket (0.10.7)
+      eventmachine (>= 0.12.0)
+      websocket-driver (>= 0.5.1)
     foreman (0.84.0)
       thor (~> 0.19.1)
     google-api-client (0.8.6)
@@ -795,6 +800,11 @@ GEM
     ruboty-slack (0.1.12)
       ruboty (>= 1.0.4)
       xrc (>= 0.1.8)
+    ruboty-slack_rtm (3.0.0)
+      faraday (~> 0.11)
+      ruboty (>= 1.1.4)
+      slack-api (~> 1.6)
+      websocket-client-simple (~> 0.3.0)
     ruby-trello (2.0.1)
       activemodel (>= 3.2.0)
       addressable (~> 2.3)
@@ -809,6 +819,11 @@ GEM
       faraday (~> 0.9)
       jwt (>= 1.5, < 3.0)
       multi_json (~> 1.10)
+    slack-api (1.6.1)
+      faraday (~> 0.11)
+      faraday_middleware (~> 0.10.0)
+      faye-websocket (~> 0.10.6)
+      multi_json (~> 1.0, >= 1.0.3)
     slack-notifier (2.3.2)
     slop (4.6.2)
     thor (0.19.4)
@@ -822,6 +837,13 @@ GEM
     unf (0.1.4)
       unf_ext
     unf_ext (0.0.7.5)
+    websocket (1.2.5)
+    websocket-client-simple (0.3.0)
+      event_emitter
+      websocket
+    websocket-driver (0.7.0)
+      websocket-extensions (>= 0.1.0)
+    websocket-extensions (0.1.3)
     xrc (0.1.8)
       activesupport
 
@@ -852,7 +874,7 @@ DEPENDENCIES
   ruboty-redis
   ruboty-replace
   ruboty-shinchoku!
-  ruboty-slack
+  ruboty-slack_rtm
   ruboty-sorena!
   ruboty-timeline!
   ruboty-trello_quote!
