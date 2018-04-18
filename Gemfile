@@ -29,7 +29,6 @@ gem 'ruboty-shinchoku', github: 'mzp/ruboty-shinchoku'
 gem 'ruboty-sorena', github: 'mallowlabs/ruboty-sorena'
 gem 'ruboty-trello_quote', github: 'standfirm/ruboty-trello_quote'
 gem 'ruboty-wei', github: 'mzp/ruboty-wei'
-gem 'ruboty-yaminoma', github: 'Pegasus204/ruboty-yaminoma'
 gem 'ruboty-zoi', github: 'mallowlabs/ruboty-zoi'
 gem 'ruboty-timeline', github: 'mzp/ruboty-timeline'
 

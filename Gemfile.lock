@@ -1,13 +1,4 @@
 GIT
-  remote: git://github.com/Pegasus204/ruboty-yaminoma.git
-  revision: 92cd0655b8577798022bd1102411b6d63df36096
-  specs:
-    ruboty-yaminoma (0.1.4)
-      pry
-      ruboty
-      ruboty-slack_rtm
-
-GIT
   remote: git://github.com/mallowlabs/ruboty-nullpo.git
   revision: 7e1b2c9dc31a9004be1d29ede439ee587401aef9
   specs:
@@ -672,7 +663,6 @@ GEM
     aws-sigv4 (1.0.2)
     chrono (0.4.0)
       activesupport
-    coderay (1.1.2)
     concurrent-ruby (1.0.5)
     domain_name (0.5.20170404)
       unf (>= 0.0.5, < 1.0.0)
@@ -725,7 +715,6 @@ GEM
       multi_json (~> 1.10)
     mem (0.1.5)
     memoist (0.16.0)
-    method_source (0.9.0)
     mime-types (3.1)
       mime-types-data (~> 3.2015)
     mime-types-data (3.2016.0521)
@@ -744,9 +733,6 @@ GEM
       rack (~> 1.4)
     octokit (4.8.0)
       sawyer (~> 0.8.0, >= 0.5.3)
-    pry (0.11.3)
-      coderay (~> 1.1.0)
-      method_source (~> 0.9.0)
     public_suffix (3.0.2)
     rack (1.6.8)
     redis (4.0.1)
@@ -854,7 +840,6 @@ DEPENDENCIES
   ruboty-timeline!
   ruboty-trello_quote!
   ruboty-wei!
-  ruboty-yaminoma!
   ruboty-zoi!
   xrc
 
