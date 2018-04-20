@@ -81,6 +81,14 @@ GIT
       slack-notifier
 
 GIT
+  remote: git://github.com/mzp/ruboty-trello_cleaner.git
+  revision: af8e1b0a718f2e72545ba3cbbaf55d73bf9e4204
+  specs:
+    ruboty-trello_cleaner (0.1.0)
+      ruboty
+      ruby-trello
+
+GIT
   remote: git://github.com/mzp/ruboty-wei.git
   revision: 9bb8a244a6b16c641ce210001d94ca5c54e93c9c
   specs:
@@ -887,6 +895,7 @@ DEPENDENCIES
   ruboty-slack_rtm
   ruboty-sorena!
   ruboty-timeline!
+  ruboty-trello_cleaner!
   ruboty-trello_quote!
   ruboty-wei!
   ruboty-yaminoma!
