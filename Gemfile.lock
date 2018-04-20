@@ -82,9 +82,10 @@ GIT
 
 GIT
   remote: git://github.com/mzp/ruboty-trello_cleaner.git
-  revision: 0d11f50608edab72c0b7354c5888d937596a859b
+  revision: 096fbd0f5bcc748f8683e95de7365fa22f36f37e
   specs:
     ruboty-trello_cleaner (0.1.0)
+      activemodel (= 4.2.10)
       ruboty
       ruby-trello
 
@@ -129,12 +130,13 @@ GIT
 GEM
   remote: https://rubygems.org/
   specs:
-    activemodel (5.2.0)
-      activesupport (= 5.2.0)
-    activesupport (5.2.0)
-      concurrent-ruby (~> 1.0, >= 1.0.2)
-      i18n (>= 0.7, < 2)
+    activemodel (4.2.10)
+      activesupport (= 4.2.10)
+      builder (~> 3.1)
+    activesupport (4.2.10)
+      i18n (~> 0.7)
       minitest (~> 5.1)
+      thread_safe (~> 0.3, >= 0.3.4)
       tzinfo (~> 1.1)
     addressable (2.5.2)
       public_suffix (>= 2.0.2, < 4.0)
@@ -693,6 +695,7 @@ GEM
       aws-sigv4 (~> 1.0)
     aws-sigv2 (1.0.1)
     aws-sigv4 (1.0.2)
+    builder (3.2.3)
     chrono (0.4.0)
       activesupport
     coderay (1.1.2)
@@ -739,7 +742,7 @@ GEM
       resolve-hostname
     http-cookie (1.0.3)
       domain_name (~> 0.5)
-    i18n (1.0.1)
+    i18n (0.9.5)
       concurrent-ruby (~> 1.0)
     jmespath (1.4.0)
     json (2.1.0)
