@@ -82,7 +82,7 @@ GIT
 
 GIT
   remote: git://github.com/mzp/ruboty-trello_cleaner.git
-  revision: af18ee69087d8b0339357de832aa0791ba6f6ca5
+  revision: 0d11f50608edab72c0b7354c5888d937596a859b
   specs:
     ruboty-trello_cleaner (0.1.0)
       ruboty
