@@ -29,6 +29,14 @@ GIT
       ruboty
 
 GIT
+  remote: git://github.com/mizukmb/ruboty-callng.git
+  revision: e206c2fe5ae496e64be1ba7960f3122bba2cd726
+  specs:
+    ruboty-callng (1.1.0)
+      ruboty
+      twilio-ruby
+
+GIT
   remote: git://github.com/mzp/disable-ssl.git
   revision: 37d754620e6832e98a1c92cfc214846303e7cbd3
   specs:
@@ -798,9 +806,6 @@ GEM
       slop
     ruboty-alias (0.0.8)
       ruboty (>= 1.1.1)
-    ruboty-callng (1.1.0)
-      ruboty
-      twilio-ruby
     ruboty-cron (1.1.0)
       activesupport
       chrono
@@ -881,7 +886,7 @@ DEPENDENCIES
   ruboty-alias
   ruboty-aws!
   ruboty-balloon!
-  ruboty-callng
+  ruboty-callng!
   ruboty-cron
   ruboty-echo
   ruboty-github!
