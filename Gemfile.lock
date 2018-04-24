@@ -1,8 +1,8 @@
 GIT
   remote: git://github.com/Pegasus204/ruboty-yaminoma.git
-  revision: 92cd0655b8577798022bd1102411b6d63df36096
+  revision: 3192c46a10c14cffbb1fc4984711624ea90761b2
   specs:
-    ruboty-yaminoma (0.1.4)
+    ruboty-yaminoma (0.1.5)
       pry
       ruboty
       ruboty-slack_rtm
