@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/Pegasus204/ruboty-yaminoma.git
-  revision: c79d7f3868556e957f35b23629861432cac3e82a
+  revision: e671b541bcb92445b02fe89b09f2734a9209b90d
   specs:
     ruboty-yaminoma (0.1.6)
       pry
@@ -706,7 +706,7 @@ GEM
     concurrent-ruby (1.0.5)
     domain_name (0.5.20180417)
       unf (>= 0.0.5, < 1.0.0)
-    dotenv (2.3.0)
+    dotenv (2.4.0)
     event_emitter (0.2.6)
     eventmachine (1.2.5)
     extlib (0.9.16)
