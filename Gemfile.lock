@@ -1,4 +1,12 @@
 GIT
+  remote: git://github.com/Pegasus204/ruboty-esaba.git
+  revision: eeb0391e5bcef1809a050a5ec627f6cec96bd966
+  specs:
+    ruboty-esaba (0.1.1)
+      dotenv
+      pry
+
+GIT
   remote: git://github.com/Pegasus204/ruboty-yaminoma.git
   revision: e671b541bcb92445b02fe89b09f2734a9209b90d
   specs:
@@ -888,6 +896,7 @@ DEPENDENCIES
   ruboty-callng
   ruboty-cron
   ruboty-echo
+  ruboty-esaba!
   ruboty-github!
   ruboty-google_image
   ruboty-google_spreadsheet!
