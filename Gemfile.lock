@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/Pegasus204/ruboty-yaminoma.git
-  revision: b4e391e60eb36de4ef1403e6b2c0eebc8d0f5554
+  revision: c79d7f3868556e957f35b23629861432cac3e82a
   specs:
     ruboty-yaminoma (0.1.6)
       pry
