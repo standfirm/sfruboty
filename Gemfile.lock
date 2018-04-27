@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/Pegasus204/ruboty-esaba.git
-  revision: c8bd43416683c9d538290555e1ec568168c63d88
+  revision: b42c79815714048759baff559fec3c1f2c944109
   specs:
     ruboty-esaba (0.1.2)
       dotenv
