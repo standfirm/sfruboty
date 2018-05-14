@@ -7,6 +7,14 @@ GIT
       pry
 
 GIT
+  remote: git://github.com/Pegasus204/ruboty-sorena.git
+  revision: c971074042fceb3421bde30aebb7b7c39c91856e
+  specs:
+    ruboty-sorena (0.0.2)
+      dotenv
+      ruboty
+
+GIT
   remote: git://github.com/Pegasus204/ruboty-yaminoma.git
   revision: d1188bdbd66dd19cb4de0ac85ecbaacf91ff9da7
   specs:
@@ -21,13 +29,6 @@ GIT
   revision: 7e1b2c9dc31a9004be1d29ede439ee587401aef9
   specs:
     ruboty-nullpo (0.0.1)
-      ruboty
-
-GIT
-  remote: git://github.com/mallowlabs/ruboty-sorena.git
-  revision: a111a97432de7773993f771e3b8cc01bce34943b
-  specs:
-    ruboty-sorena (0.0.1)
       ruboty
 
 GIT
