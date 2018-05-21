@@ -25,6 +25,17 @@ GIT
       ruboty-slack_rtm
 
 GIT
+  remote: git://github.com/Pegasus204/ruboty-yasumimasu.git
+  revision: 341162e873ae0e66e7198222db6dfca4a81a16b0
+  specs:
+    ruboty-yasumimasu (0.1.0)
+      dotenv
+      google-api-client (~> 0.8.0)
+      google_drive
+      pry
+      ruboty
+
+GIT
   remote: git://github.com/mallowlabs/ruboty-nullpo.git
   revision: 7e1b2c9dc31a9004be1d29ede439ee587401aef9
   specs:
@@ -918,6 +929,7 @@ DEPENDENCIES
   ruboty-trello_quote!
   ruboty-wei!
   ruboty-yaminoma!
+  ruboty-yasumimasu!
   ruboty-zoi!
   xrc
 

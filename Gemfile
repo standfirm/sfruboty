@@ -34,5 +34,6 @@ gem 'ruboty-zoi', github: 'mallowlabs/ruboty-zoi'
 gem 'ruboty-timeline', github: 'mzp/ruboty-timeline'
 gem 'ruboty-trello_cleaner', github: 'mzp/ruboty-trello_cleaner'
 gem 'ruboty-esaba', github: 'Pegasus204/ruboty-esaba'
+gem 'ruboty-yasumimasu', github: 'Pegasus204/ruboty-yasumimasu'
 
 gem "foreman"
