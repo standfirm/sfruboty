@@ -26,7 +26,7 @@ GIT
 
 GIT
   remote: git://github.com/Pegasus204/ruboty-yasumimasu.git
-  revision: 608bb36f838ef4c70a2316ec620a489710a67c75
+  revision: 7d72462c090687165f137cfebfde02d68990c5b1
   specs:
     ruboty-yasumimasu (0.1.0)
       dotenv
