@@ -26,7 +26,7 @@ GIT
 
 GIT
   remote: git://github.com/Pegasus204/ruboty-yasumimasu.git
-  revision: 7d72462c090687165f137cfebfde02d68990c5b1
+  revision: cc5018a398741b5c458def68c0b660e92ac1322e
   specs:
     ruboty-yasumimasu (0.1.0)
       dotenv
@@ -731,7 +731,7 @@ GEM
     event_emitter (0.2.6)
     eventmachine (1.2.7)
     extlib (0.9.16)
-    faraday (0.15.1)
+    faraday (0.12.2)
       multipart-post (>= 1.2, < 3)
     faraday_middleware (0.10.1)
       faraday (>= 0.7.4, < 1.0)
@@ -768,12 +768,11 @@ GEM
       resolve-hostname
     http-cookie (1.0.3)
       domain_name (~> 0.5)
-    httpauth (0.2.1)
     i18n (0.9.5)
       concurrent-ruby (~> 1.0)
     jmespath (1.4.0)
     json (2.1.0)
-    jwt (2.1.0)
+    jwt (1.5.6)
     launchy (2.4.3)
       addressable (~> 2.3)
     little-plugger (1.1.4)
@@ -789,16 +788,18 @@ GEM
     mini_portile2 (2.3.0)
     minitest (5.11.3)
     multi_json (1.13.1)
+    multi_xml (0.6.0)
     multipart-post (2.0.0)
     netrc (0.11.0)
     nokogiri (1.8.2)
       mini_portile2 (~> 2.3.0)
     oauth (0.5.4)
-    oauth2 (0.7.1)
-      faraday (~> 0.8)
-      httpauth (~> 0.1)
-      multi_json (~> 1.0)
-      rack (~> 1.4)
+    oauth2 (1.4.0)
+      faraday (>= 0.8, < 0.13)
+      jwt (~> 1.0)
+      multi_json (~> 1.3)
+      multi_xml (~> 0.5)
+      rack (>= 1.2, < 3)
     octokit (4.9.0)
       sawyer (~> 0.8.0, >= 0.5.3)
     os (0.9.6)
@@ -806,7 +807,7 @@ GEM
       coderay (~> 1.1.0)
       method_source (~> 0.9.0)
     public_suffix (3.0.2)
-    rack (1.6.10)
+    rack (2.0.5)
     redis (4.0.1)
     redis-namespace (1.6.0)
       redis (>= 3.0.4)
