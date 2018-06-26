@@ -1,41 +1,4 @@
 GIT
-  remote: git://github.com/Pegasus204/ruboty-esaba.git
-  revision: 8b1fd8f19a0240f8f1908db9aeeb239f4a75201a
-  specs:
-    ruboty-esaba (0.1.2)
-      dotenv
-      pry
-
-GIT
-  remote: git://github.com/Pegasus204/ruboty-sorena.git
-  revision: 8ced8973c8427e9f678dfe92aeaace6f9f2d4537
-  specs:
-    ruboty-sorena (0.0.2)
-      dotenv
-      ruboty
-
-GIT
-  remote: git://github.com/Pegasus204/ruboty-yaminoma.git
-  revision: 2fed305eb604b6e6a1e90fbbe7bdafdd00d5825b
-  specs:
-    ruboty-yaminoma (0.1.7)
-      dotenv
-      pry
-      ruboty
-      ruboty-slack_rtm
-
-GIT
-  remote: git://github.com/Pegasus204/ruboty-yasumimasu.git
-  revision: cc5018a398741b5c458def68c0b660e92ac1322e
-  specs:
-    ruboty-yasumimasu (0.1.0)
-      dotenv
-      google-api-client (~> 0.8.0)
-      google_drive
-      pry
-      ruboty
-
-GIT
   remote: git://github.com/mallowlabs/ruboty-nullpo.git
   revision: 7e1b2c9dc31a9004be1d29ede439ee587401aef9
   specs:
@@ -125,6 +88,14 @@ GIT
       ruboty
 
 GIT
+  remote: git://github.com/standfirm/ruboty-esaba.git
+  revision: 8b1fd8f19a0240f8f1908db9aeeb239f4a75201a
+  specs:
+    ruboty-esaba (0.1.2)
+      dotenv
+      pry
+
+GIT
   remote: git://github.com/standfirm/ruboty-github.git
   revision: 673d75d876694c9928f8e71150eaaf57e1e3b148
   specs:
@@ -141,12 +112,41 @@ GIT
       ruboty
 
 GIT
+  remote: git://github.com/standfirm/ruboty-sorena.git
+  revision: 8ced8973c8427e9f678dfe92aeaace6f9f2d4537
+  specs:
+    ruboty-sorena (0.0.2)
+      dotenv
+      ruboty
+
+GIT
   remote: git://github.com/standfirm/ruboty-trello_quote.git
   revision: ac1588b0ea74b0aca9d4666099d0332d25f02d95
   specs:
     ruboty-trello_quote (0.0.1)
       ruboty
       ruby-trello
+
+GIT
+  remote: git://github.com/standfirm/ruboty-yaminoma.git
+  revision: 2fed305eb604b6e6a1e90fbbe7bdafdd00d5825b
+  specs:
+    ruboty-yaminoma (0.1.7)
+      dotenv
+      pry
+      ruboty
+      ruboty-slack_rtm
+
+GIT
+  remote: git://github.com/standfirm/ruboty-yasumimasu.git
+  revision: cc5018a398741b5c458def68c0b660e92ac1322e
+  specs:
+    ruboty-yasumimasu (0.1.0)
+      dotenv
+      google-api-client (~> 0.8.0)
+      google_drive
+      pry
+      ruboty
 
 GEM
   remote: https://rubygems.org/
