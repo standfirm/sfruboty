@@ -8,7 +8,7 @@ GIT
 
 GIT
   remote: git://github.com/Pegasus204/ruboty-sorena.git
-  revision: c971074042fceb3421bde30aebb7b7c39c91856e
+  revision: 8ced8973c8427e9f678dfe92aeaace6f9f2d4537
   specs:
     ruboty-sorena (0.0.2)
       dotenv
