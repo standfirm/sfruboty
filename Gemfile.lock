@@ -1,4 +1,12 @@
 GIT
+  remote: git://github.com/hidakatsuya/ruboty-dictionary.git
+  revision: 27eeb6dbdb85c52f26a25f80b71cb373d63e3dc4
+  specs:
+    ruboty-dictionary (0.1.0)
+      google_drive (~> 1.0.6)
+      ruboty (>= 1.3.0)
+
+GIT
   remote: git://github.com/mallowlabs/ruboty-nullpo.git
   revision: 7e1b2c9dc31a9004be1d29ede439ee587401aef9
   specs:
@@ -939,6 +947,7 @@ DEPENDENCIES
   ruboty-balloon!
   ruboty-callng
   ruboty-cron
+  ruboty-dictionary!
   ruboty-echo
   ruboty-esaba!
   ruboty-github!
@@ -967,4 +976,4 @@ RUBY VERSION
    ruby 2.4.3p205
 
 BUNDLED WITH
-   1.16.1
+   1.16.3
