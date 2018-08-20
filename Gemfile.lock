@@ -43,14 +43,6 @@ GIT
       ruboty
 
 GIT
-  remote: git://github.com/mzp/ruboty-google_spreadsheet.git
-  revision: 9d8086a627349b5a44d1fe4dbdea0b0d1b8ebf80
-  specs:
-    ruboty-google_spreadsheet (0.1.2)
-      google_drive
-      ruboty
-
-GIT
   remote: git://github.com/mzp/ruboty-growthforecast.git
   revision: 6c021a2c3f5f87d7f948f2465c7723cde0c37fc3
   specs:
@@ -960,7 +952,6 @@ DEPENDENCIES
   ruboty-esaba!
   ruboty-github!
   ruboty-google_image
-  ruboty-google_spreadsheet!
   ruboty-growthforecast!
   ruboty-health_check!
   ruboty-lgtm
