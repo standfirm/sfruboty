@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/hidakatsuya/ruboty-dictionary.git
-  revision: 27eeb6dbdb85c52f26a25f80b71cb373d63e3dc4
+  revision: 5e9d63a4fdd5f64f8fb05d4c64bc7f4dcbd0bbdb
   specs:
     ruboty-dictionary (0.1.0)
       google_drive (~> 1.0.6)
@@ -976,4 +976,4 @@ RUBY VERSION
    ruby 2.4.3p205
 
 BUNDLED WITH
-   1.16.3
+   1.16.4
