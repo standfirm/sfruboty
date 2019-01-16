@@ -96,14 +96,6 @@ GIT
       ruboty
 
 GIT
-  remote: git://github.com/standfirm/ruboty-esaba.git
-  revision: 8b1fd8f19a0240f8f1908db9aeeb239f4a75201a
-  specs:
-    ruboty-esaba (0.1.2)
-      dotenv
-      pry
-
-GIT
   remote: git://github.com/standfirm/ruboty-github.git
   revision: 673d75d876694c9928f8e71150eaaf57e1e3b148
   specs:
@@ -949,7 +941,6 @@ DEPENDENCIES
   ruboty-cron
   ruboty-dictionary!
   ruboty-echo
-  ruboty-esaba!
   ruboty-github!
   ruboty-google_image
   ruboty-growthforecast!
@@ -971,9 +962,6 @@ DEPENDENCIES
   ruboty-yasumimasu!
   ruboty-zoi!
   xrc
-
-RUBY VERSION
-   ruby 2.4.3p205
 
 BUNDLED WITH
    1.16.4

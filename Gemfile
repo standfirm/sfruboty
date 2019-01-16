@@ -34,7 +34,6 @@ gem 'ruboty-yaminoma', github: 'standfirm/ruboty-yaminoma'
 gem 'ruboty-zoi', github: 'mallowlabs/ruboty-zoi'
 gem 'ruboty-timeline', github: 'mzp/ruboty-timeline'
 gem 'ruboty-trello_cleaner', github: 'mzp/ruboty-trello_cleaner'
-gem 'ruboty-esaba', github: 'standfirm/ruboty-esaba'
 gem 'ruboty-yasumimasu', github: 'standfirm/ruboty-yasumimasu'
 
 gem "foreman"
