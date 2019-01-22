@@ -963,5 +963,8 @@ DEPENDENCIES
   ruboty-zoi!
   xrc
 
+RUBY VERSION
+   ruby 2.4.3p205
+
 BUNDLED WITH
-   1.16.4
+   1.17.3
