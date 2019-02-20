@@ -97,7 +97,7 @@ GIT
 
 GIT
   remote: git://github.com/standfirm/ruboty-github.git
-  revision: 673d75d876694c9928f8e71150eaaf57e1e3b148
+  revision: 81cf944b614c61869aed6347cebde253701b709f
   specs:
     ruboty-github (0.1.0)
       activesupport
@@ -754,14 +754,14 @@ GEM
     chrono (0.4.0)
       activesupport
     coderay (1.1.2)
-    concurrent-ruby (1.0.5)
+    concurrent-ruby (1.1.4)
     domain_name (0.5.20180417)
       unf (>= 0.0.5, < 1.0.0)
-    dotenv (2.5.0)
+    dotenv (2.6.0)
     event_emitter (0.2.6)
     eventmachine (1.2.7)
     extlib (0.9.16)
-    faraday (0.15.2)
+    faraday (0.15.4)
       multipart-post (>= 1.2, < 3)
     faraday_middleware (0.10.1)
       faraday (>= 0.7.4, < 1.0)
@@ -829,13 +829,13 @@ GEM
       httpauth (~> 0.1)
       multi_json (~> 1.0)
       rack (~> 1.4)
-    octokit (4.9.0)
+    octokit (4.13.0)
       sawyer (~> 0.8.0, >= 0.5.3)
     os (0.9.6)
     pry (0.11.3)
       coderay (~> 1.1.0)
       method_source (~> 0.9.0)
-    public_suffix (3.0.2)
+    public_suffix (3.0.3)
     rack (1.6.11)
     redis (4.0.1)
     redis-namespace (1.6.0)
@@ -962,9 +962,6 @@ DEPENDENCIES
   ruboty-yasumimasu!
   ruboty-zoi!
   xrc
-
-RUBY VERSION
-   ruby 2.4.3p205
 
 BUNDLED WITH
    1.17.3
