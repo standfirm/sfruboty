@@ -1,0 +1,12 @@
+FROM ruby:2.4.5-alpine3.9
+
+RUN apk update && apk add g++ git make
+
+RUN mkdir /app
+COPY Gemfile Gemfile.lock /app/
+
+WORKDIR /app
+RUN bundle install
+
+VOLUME /app
+CMD ["/bin/sh"]
