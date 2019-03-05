@@ -97,7 +97,7 @@ GIT
 
 GIT
   remote: git://github.com/standfirm/ruboty-github.git
-  revision: 81cf944b614c61869aed6347cebde253701b709f
+  revision: c12c0f1ef2c853f3edcdfce984d0a9ea4bcbe49a
   specs:
     ruboty-github (0.1.0)
       activesupport
@@ -967,4 +967,4 @@ RUBY VERSION
    ruby 2.4.5p335
 
 BUNDLED WITH
-   1.17.3
+   2.0.1
