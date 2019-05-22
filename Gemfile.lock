@@ -97,7 +97,7 @@ GIT
 
 GIT
   remote: git://github.com/standfirm/ruboty-github.git
-  revision: e2802686f116df0d09a2d3f6640b80f6bb373ff8
+  revision: 570ff47912c49cd179e51e8c8ee4991f75a7607a
   specs:
     ruboty-github (0.1.0)
       activesupport
@@ -829,7 +829,7 @@ GEM
       httpauth (~> 0.1)
       multi_json (~> 1.0)
       rack (~> 1.4)
-    octokit (4.13.0)
+    octokit (4.14.0)
       sawyer (~> 0.8.0, >= 0.5.3)
     os (0.9.6)
     pry (0.11.3)
@@ -888,9 +888,9 @@ GEM
       json
       oauth (>= 0.4.5)
       rest-client (>= 1.8.0)
-    sawyer (0.8.1)
-      addressable (>= 2.3.5, < 2.6)
-      faraday (~> 0.8, < 1.0)
+    sawyer (0.8.2)
+      addressable (>= 2.3.5)
+      faraday (> 0.8, < 2.0)
     signet (0.8.1)
       addressable (~> 2.3)
       faraday (~> 0.9)
