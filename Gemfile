@@ -7,6 +7,7 @@ gem 'disable-ssl', github: 'mzp/disable-ssl'
 
 # ruboty plugins
 gem 'ruboty-alias'
+gem 'ruboty-cloudfront'
 gem 'ruboty-replace'
 gem 'ruboty-balloon', github: 'shimomura1004/ruboty-balloon'
 gem 'ruboty-callng'

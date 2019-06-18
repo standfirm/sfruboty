@@ -157,6 +157,16 @@ GEM
       addressable (>= 2.3.1)
       extlib (>= 0.9.15)
       multi_json (>= 1.0.0)
+    aws-eventstream (1.0.3)
+    aws-sdk (2.11.296)
+      aws-sdk-resources (= 2.11.296)
+    aws-sdk-core (2.11.296)
+      aws-sigv4 (~> 1.0)
+      jmespath (~> 1.0)
+    aws-sdk-resources (2.11.296)
+      aws-sdk-core (= 2.11.296)
+    aws-sigv4 (1.1.0)
+      aws-eventstream (~> 1.0, >= 1.0.2)
     builder (3.2.3)
     chrono (0.4.0)
       activesupport
@@ -208,6 +218,7 @@ GEM
     httpauth (0.2.1)
     i18n (0.9.5)
       concurrent-ruby (~> 1.0)
+    jmespath (1.4.0)
     json (2.1.0)
     jwt (2.1.0)
     launchy (2.4.3)
@@ -263,6 +274,9 @@ GEM
     ruboty-callng (1.1.1)
       ruboty
       twilio-ruby
+    ruboty-cloudfront (0.1.0)
+      aws-sdk (~> 2.0)
+      ruboty
     ruboty-cron (1.1.0)
       activesupport
       chrono
@@ -343,6 +357,7 @@ DEPENDENCIES
   ruboty-alias
   ruboty-balloon!
   ruboty-callng
+  ruboty-cloudfront
   ruboty-cron
   ruboty-dictionary!
   ruboty-echo
