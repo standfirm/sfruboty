@@ -112,14 +112,6 @@ GIT
       ruboty
 
 GIT
-  remote: git://github.com/standfirm/ruboty-trello_quote.git
-  revision: ac1588b0ea74b0aca9d4666099d0332d25f02d95
-  specs:
-    ruboty-trello_quote (0.0.1)
-      ruboty
-      ruby-trello
-
-GIT
   remote: git://github.com/standfirm/ruboty-yaminoma.git
   revision: 2fed305eb604b6e6a1e90fbbe7bdafdd00d5825b
   specs:
@@ -376,7 +368,6 @@ DEPENDENCIES
   ruboty-timeline!
   ruboty-touban!
   ruboty-trello_cleaner!
-  ruboty-trello_quote!
   ruboty-wei!
   ruboty-yaminoma!
   ruboty-yasumimasu!
