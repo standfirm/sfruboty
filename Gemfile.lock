@@ -1,5 +1,5 @@
 GIT
-  remote: git://github.com/hidakatsuya/ruboty-dictionary.git
+  remote: https://github.com/hidakatsuya/ruboty-dictionary.git
   revision: 5e9d63a4fdd5f64f8fb05d4c64bc7f4dcbd0bbdb
   specs:
     ruboty-dictionary (0.1.0)
@@ -7,7 +7,7 @@ GIT
       ruboty (>= 1.3.0)
 
 GIT
-  remote: git://github.com/hidakatsuya/ruboty-touban.git
+  remote: https://github.com/hidakatsuya/ruboty-touban.git
   revision: 26fa2d5f937381b8f182dc7b8ba519359b631afe
   specs:
     ruboty-touban (0.1.0)
@@ -15,27 +15,27 @@ GIT
       ruboty (>= 1.3.0)
 
 GIT
-  remote: git://github.com/mallowlabs/ruboty-nullpo.git
+  remote: https://github.com/mallowlabs/ruboty-nullpo.git
   revision: 7e1b2c9dc31a9004be1d29ede439ee587401aef9
   specs:
     ruboty-nullpo (0.0.1)
       ruboty
 
 GIT
-  remote: git://github.com/mallowlabs/ruboty-zoi.git
+  remote: https://github.com/mallowlabs/ruboty-zoi.git
   revision: 55c8b41c8ea3900be6c355dab9ed6f4515543547
   specs:
     ruboty-zoi (0.0.1)
       ruboty
 
 GIT
-  remote: git://github.com/mzp/disable-ssl.git
+  remote: https://github.com/mzp/disable-ssl.git
   revision: 37d754620e6832e98a1c92cfc214846303e7cbd3
   specs:
     disable-ssl (0.1.0)
 
 GIT
-  remote: git://github.com/mzp/ruboty-growthforecast.git
+  remote: https://github.com/mzp/ruboty-growthforecast.git
   revision: 6c021a2c3f5f87d7f948f2465c7723cde0c37fc3
   specs:
     ruboty-growthforecast (0.1.0)
@@ -43,30 +43,30 @@ GIT
       ruboty
 
 GIT
-  remote: git://github.com/mzp/ruboty-misawa.git
+  remote: https://github.com/mzp/ruboty-misawa.git
   revision: 5b39a2f03fa13b45804f8415352c2eaa5732152d
   specs:
     ruboty-misawa (0.0.1)
       ruboty
 
 GIT
-  remote: git://github.com/mzp/ruboty-shinchoku.git
+  remote: https://github.com/mzp/ruboty-shinchoku.git
   revision: 26fbdafb65be8127154f6a81a6319d7ae7898ac2
   specs:
     ruboty-shinchoku (0.1.0)
       ruboty
 
 GIT
-  remote: git://github.com/mzp/ruboty-timeline.git
-  revision: 717849c7c93675b13024a3cfd8c11efa5abf0f24
+  remote: https://github.com/mzp/ruboty-timeline.git
+  revision: 519e8e2e432ca4d7b7420ce05afc2de035bdcf73
   specs:
     ruboty-timeline (0.1.0)
       ruboty
       slack-notifier
 
 GIT
-  remote: git://github.com/mzp/ruboty-trello_cleaner.git
-  revision: 096fbd0f5bcc748f8683e95de7365fa22f36f37e
+  remote: https://github.com/mzp/ruboty-trello_cleaner.git
+  revision: 2abc4afb0a215b965e424a76c33b2ec8e8990f46
   specs:
     ruboty-trello_cleaner (0.1.0)
       activemodel (= 4.2.10)
@@ -74,21 +74,21 @@ GIT
       ruby-trello
 
 GIT
-  remote: git://github.com/mzp/ruboty-wei.git
+  remote: https://github.com/mzp/ruboty-wei.git
   revision: 9bb8a244a6b16c641ce210001d94ca5c54e93c9c
   specs:
     ruboty-wei (0.0.1)
       ruboty
 
 GIT
-  remote: git://github.com/shimomura1004/ruboty-balloon.git
+  remote: https://github.com/shimomura1004/ruboty-balloon.git
   revision: 988df2cab5e0120adb6afc35315da20fb94deab3
   specs:
     ruboty-balloon (0.0.1)
       ruboty
 
 GIT
-  remote: git://github.com/standfirm/ruboty-github.git
+  remote: https://github.com/standfirm/ruboty-github.git
   revision: 5e7d5f194fbfa95f8b7a1606ee7b63538bb0dbb4
   specs:
     ruboty-github (0.1.0)
@@ -97,14 +97,14 @@ GIT
       ruboty
 
 GIT
-  remote: git://github.com/standfirm/ruboty-health_check.git
+  remote: https://github.com/standfirm/ruboty-health_check.git
   revision: fd2e2fbb3a82ccb169b7aa9753b7e17ce6a1b883
   specs:
     ruboty-health_check (0.0.1)
       ruboty
 
 GIT
-  remote: git://github.com/standfirm/ruboty-sorena.git
+  remote: https://github.com/standfirm/ruboty-sorena.git
   revision: 8ced8973c8427e9f678dfe92aeaace6f9f2d4537
   specs:
     ruboty-sorena (0.0.2)
@@ -112,7 +112,7 @@ GIT
       ruboty
 
 GIT
-  remote: git://github.com/standfirm/ruboty-yaminoma.git
+  remote: https://github.com/standfirm/ruboty-yaminoma.git
   revision: 2fed305eb604b6e6a1e90fbbe7bdafdd00d5825b
   specs:
     ruboty-yaminoma (0.1.7)
@@ -122,8 +122,8 @@ GIT
       ruboty-slack_rtm
 
 GIT
-  remote: git://github.com/standfirm/ruboty-yasumimasu.git
-  revision: cc5018a398741b5c458def68c0b660e92ac1322e
+  remote: https://github.com/standfirm/ruboty-yasumimasu.git
+  revision: a14f1d0a6cb97add5d831e7407b71e63541712ed
   specs:
     ruboty-yasumimasu (0.1.0)
       dotenv
@@ -164,7 +164,7 @@ GEM
       activesupport
     coderay (1.1.2)
     concurrent-ruby (1.1.4)
-    domain_name (0.5.20180417)
+    domain_name (0.5.20190701)
       unf (>= 0.0.5, < 1.0.0)
     dotenv (2.6.0)
     event_emitter (0.2.6)
@@ -205,13 +205,14 @@ GEM
       signet (~> 0.7)
     growthforecast (0.0.5)
       resolve-hostname
+    http-accept (1.7.0)
     http-cookie (1.0.3)
       domain_name (~> 0.5)
     httpauth (0.2.1)
     i18n (0.9.5)
       concurrent-ruby (~> 1.0)
     jmespath (1.4.0)
-    json (2.1.0)
+    json (2.2.0)
     jwt (2.1.0)
     launchy (2.4.3)
       addressable (~> 2.3)
@@ -221,16 +222,16 @@ GEM
       multi_json (~> 1.10)
     mem (0.1.5)
     memoist (0.16.0)
-    method_source (0.9.0)
-    mime-types (3.1)
+    method_source (0.9.2)
+    mime-types (3.2.2)
       mime-types-data (~> 3.2015)
-    mime-types-data (3.2016.0521)
+    mime-types-data (3.2019.0331)
     mini_portile2 (2.4.0)
     minitest (5.11.3)
     multi_json (1.13.1)
     multipart-post (2.0.0)
     netrc (0.11.0)
-    nokogiri (1.10.1)
+    nokogiri (1.10.4)
       mini_portile2 (~> 2.4.0)
     oauth (0.5.4)
     oauth2 (0.7.1)
@@ -241,7 +242,7 @@ GEM
     octokit (4.14.0)
       sawyer (~> 0.8.0, >= 0.5.3)
     os (0.9.6)
-    pry (0.11.3)
+    pry (0.12.2)
       coderay (~> 1.1.0)
       method_source (~> 0.9.0)
     public_suffix (3.0.3)
@@ -250,7 +251,8 @@ GEM
     redis-namespace (1.6.0)
       redis (>= 3.0.4)
     resolve-hostname (0.1.0)
-    rest-client (2.0.2)
+    rest-client (2.1.0)
+      http-accept (>= 1.7.0, < 2.0)
       http-cookie (>= 1.0.2, < 2.0)
       mime-types (>= 1.16, < 4.0)
       netrc (~> 0.8)
@@ -294,7 +296,7 @@ GEM
       ruboty (>= 1.1.4)
       slack-api (~> 1.6)
       websocket-client-simple (~> 0.3.0)
-    ruby-trello (2.0.1)
+    ruby-trello (2.1.0)
       activemodel (>= 3.2.0)
       addressable (~> 2.3)
       json
@@ -325,7 +327,7 @@ GEM
       thread_safe (~> 0.1)
     unf (0.1.4)
       unf_ext
-    unf_ext (0.0.7.5)
+    unf_ext (0.0.7.6)
     websocket (1.2.8)
     websocket-client-simple (0.3.0)
       event_emitter
@@ -378,4 +380,4 @@ RUBY VERSION
    ruby 2.4.5p335
 
 BUNDLED WITH
-   2.0.1
+   2.0.2
