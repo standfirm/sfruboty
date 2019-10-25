@@ -16,7 +16,7 @@ GIT
 
 GIT
   remote: https://github.com/kokuyouwind/ruboty-esa.git
-  revision: 27b368fccdc54e31b03680495537e666349e6df7
+  revision: 298b38b334971903dfcdb7dcc96d739f946ac82c
   specs:
     ruboty-esa (0.1.0)
       activesupport
