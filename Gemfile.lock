@@ -31,6 +31,14 @@ GIT
       ruboty
 
 GIT
+  remote: https://github.com/mallowlabs/ruboty-redash.git
+  revision: 4c343847afadbbb6780408ac001e7c32746baf1a
+  specs:
+    ruboty-redash (0.1.0)
+      faraday
+      ruboty
+
+GIT
   remote: https://github.com/mallowlabs/ruboty-zoi.git
   revision: 55c8b41c8ea3900be6c355dab9ed6f4515543547
   specs:
@@ -378,6 +386,7 @@ DEPENDENCIES
   ruboty-lgtm
   ruboty-misawa!
   ruboty-nullpo!
+  ruboty-redash!
   ruboty-redis
   ruboty-replace
   ruboty-shinchoku!
@@ -396,4 +405,4 @@ RUBY VERSION
    ruby 2.4.5p335
 
 BUNDLED WITH
-   2.0.2
+   2.1.4
