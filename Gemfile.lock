@@ -46,12 +46,6 @@ GIT
       ruboty
 
 GIT
-  remote: https://github.com/mzp/disable-ssl.git
-  revision: 37d754620e6832e98a1c92cfc214846303e7cbd3
-  specs:
-    disable-ssl (0.1.0)
-
-GIT
   remote: https://github.com/mzp/ruboty-growthforecast.git
   revision: 6c021a2c3f5f87d7f948f2465c7723cde0c37fc3
   specs:
@@ -365,7 +359,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  disable-ssl!
   foreman
   google-api-client (= 0.8.6)
   google_drive
