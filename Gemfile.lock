@@ -174,7 +174,7 @@ GEM
     chrono (0.4.0)
       activesupport
     coderay (1.1.2)
-    concurrent-ruby (1.1.7)
+    concurrent-ruby (1.1.8)
     domain_name (0.5.20190701)
       unf (>= 0.0.5, < 1.0.0)
     dotenv (2.7.6)
@@ -186,7 +186,7 @@ GEM
     event_emitter (0.2.6)
     eventmachine (1.2.7)
     extlib (0.9.16)
-    faraday (0.17.3)
+    faraday (0.17.4)
       multipart-post (>= 1.2, < 3)
     faraday_middleware (0.10.1)
       faraday (>= 0.7.4, < 1.0)
@@ -242,8 +242,8 @@ GEM
       mime-types-data (~> 3.2015)
     mime-types-data (3.2019.1009)
     mini_portile2 (2.4.0)
-    minitest (5.14.3)
-    multi_json (1.14.1)
+    minitest (5.14.4)
+    multi_json (1.15.0)
     multi_xml (0.6.0)
     multipart-post (2.1.1)
     netrc (0.11.0)
@@ -309,7 +309,7 @@ GEM
       ruboty
     ruboty-replace (0.0.1)
       ruboty
-    ruboty-slack_rtm (3.2.1)
+    ruboty-slack_rtm (3.2.2)
       faraday (~> 0.11)
       ruboty (>= 1.1.4)
       slack-api (~> 1.6)
@@ -346,11 +346,11 @@ GEM
     unf (0.1.4)
       unf_ext
     unf_ext (0.0.7.6)
-    websocket (1.2.8)
+    websocket (1.2.9)
     websocket-client-simple (0.3.0)
       event_emitter
       websocket
-    websocket-driver (0.7.2)
+    websocket-driver (0.7.3)
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.5)
     xrc (0.1.8)
