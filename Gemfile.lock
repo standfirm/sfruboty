@@ -68,14 +68,6 @@ GIT
       ruboty
 
 GIT
-  remote: https://github.com/mzp/ruboty-timeline.git
-  revision: 519e8e2e432ca4d7b7420ce05afc2de035bdcf73
-  specs:
-    ruboty-timeline (0.1.0)
-      ruboty
-      slack-notifier
-
-GIT
   remote: https://github.com/mzp/ruboty-trello_cleaner.git
   revision: 2abc4afb0a215b965e424a76c33b2ec8e8990f46
   specs:
@@ -121,6 +113,15 @@ GIT
     ruboty-sorena (0.0.2)
       dotenv
       ruboty
+
+GIT
+  remote: https://github.com/standfirm/ruboty-timeline.git
+  revision: 7a080893abfa70c6ecead33ef342c5b28700eba8
+  branch: use-conversations.list-instead
+  specs:
+    ruboty-timeline (0.1.0)
+      ruboty
+      slack-notifier
 
 GIT
   remote: https://github.com/standfirm/ruboty-yaminoma.git
@@ -399,4 +400,4 @@ RUBY VERSION
    ruby 2.4.5p335
 
 BUNDLED WITH
-   2.2.5
+   2.2.11
