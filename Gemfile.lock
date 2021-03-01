@@ -116,8 +116,8 @@ GIT
 
 GIT
   remote: https://github.com/standfirm/ruboty-timeline.git
-  revision: 7a080893abfa70c6ecead33ef342c5b28700eba8
-  branch: use-conversations.list-instead
+  revision: 19c54feed6763241f7461372fc5111af58c9bad9
+  branch: use-users.conversations-instead
   specs:
     ruboty-timeline (0.1.0)
       ruboty
