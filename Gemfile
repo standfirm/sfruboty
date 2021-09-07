@@ -30,10 +30,8 @@ gem 'ruboty-shinchoku', github: 'mzp/ruboty-shinchoku'
 gem 'ruboty-sorena', github: 'standfirm/ruboty-sorena'
 gem 'ruboty-touban', github: 'hidakatsuya/ruboty-touban'
 gem 'ruboty-wei', github: 'mzp/ruboty-wei'
-gem 'ruboty-yaminoma', github: 'standfirm/ruboty-yaminoma'
 gem 'ruboty-zoi', github: 'mallowlabs/ruboty-zoi'
 gem 'ruboty-timeline', github: 'standfirm/ruboty-timeline', branch: 'use-users.conversations-instead'
 gem 'ruboty-trello_cleaner', github: 'mzp/ruboty-trello_cleaner'
-gem 'ruboty-yasumimasu', github: 'standfirm/ruboty-yasumimasu'
 
 gem "foreman"
