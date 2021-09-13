@@ -290,7 +290,7 @@ PLATFORMS
 
 DEPENDENCIES
   foreman
-  google-api-client (= 0.8.6)
+  google-api-client
   google_drive
   googleauth
   ruboty
