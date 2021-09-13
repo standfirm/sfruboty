@@ -1,12 +1,4 @@
 GIT
-  remote: https://github.com/hidakatsuya/ruboty-dictionary.git
-  revision: 5e9d63a4fdd5f64f8fb05d4c64bc7f4dcbd0bbdb
-  specs:
-    ruboty-dictionary (0.1.0)
-      google_drive (~> 1.0.6)
-      ruboty (>= 1.3.0)
-
-GIT
   remote: https://github.com/hidakatsuya/ruboty-touban.git
   revision: 26fa2d5f937381b8f182dc7b8ba519359b631afe
   specs:
@@ -68,15 +60,6 @@ GIT
       ruboty
 
 GIT
-  remote: https://github.com/mzp/ruboty-trello_cleaner.git
-  revision: 2abc4afb0a215b965e424a76c33b2ec8e8990f46
-  specs:
-    ruboty-trello_cleaner (0.1.0)
-      activemodel (= 4.2.10)
-      ruboty
-      ruby-trello
-
-GIT
   remote: https://github.com/mzp/ruboty-wei.git
   revision: 9bb8a244a6b16c641ce210001d94ca5c54e93c9c
   specs:
@@ -126,9 +109,6 @@ GIT
 GEM
   remote: https://rubygems.org/
   specs:
-    activemodel (4.2.10)
-      activesupport (= 4.2.10)
-      builder (~> 3.1)
     activesupport (4.2.10)
       i18n (~> 0.7)
       minitest (~> 5.1)
@@ -150,12 +130,9 @@ GEM
       aws-sdk-core (= 2.11.296)
     aws-sigv4 (1.1.0)
       aws-eventstream (~> 1.0, >= 1.0.2)
-    builder (3.2.3)
     chrono (0.4.0)
       activesupport
     concurrent-ruby (1.1.7)
-    domain_name (0.5.20190701)
-      unf (>= 0.0.5, < 1.0.0)
     dotenv (2.7.6)
     esa (1.14.0)
       faraday (~> 0.9)
@@ -200,13 +177,9 @@ GEM
       signet (~> 0.7)
     growthforecast (0.0.5)
       resolve-hostname
-    http-accept (1.7.0)
-    http-cookie (1.0.3)
-      domain_name (~> 0.5)
     i18n (0.9.5)
       concurrent-ruby (~> 1.0)
     jmespath (1.4.0)
-    json (2.3.1)
     jwt (2.1.0)
     launchy (2.4.3)
       addressable (~> 2.3)
@@ -224,7 +197,6 @@ GEM
     multi_json (1.14.1)
     multi_xml (0.6.0)
     multipart-post (2.1.1)
-    netrc (0.11.0)
     nokogiri (1.10.10)
       mini_portile2 (~> 2.4.0)
     oauth (0.5.6)
@@ -244,11 +216,6 @@ GEM
     redis-namespace (1.6.0)
       redis (>= 3.0.4)
     resolve-hostname (0.1.0)
-    rest-client (2.1.0)
-      http-accept (>= 1.7.0, < 2.0)
-      http-cookie (>= 1.0.2, < 2.0)
-      mime-types (>= 1.16, < 4.0)
-      netrc (~> 0.8)
     retriable (1.4.1)
     ruboty (1.3.1)
       activesupport
@@ -270,10 +237,6 @@ GEM
       ruboty (>= 0.2.0)
     ruboty-echo (0.1.1)
       ruboty
-    ruboty-google_image (0.1.0)
-      faraday
-      faraday_middleware
-      ruboty
     ruboty-lgtm (0.0.3)
       faraday
       faraday_middleware
@@ -289,12 +252,6 @@ GEM
       ruboty (>= 1.1.4)
       slack-api (~> 1.6)
       websocket-client-simple (~> 0.3.0)
-    ruby-trello (2.1.0)
-      activemodel (>= 3.2.0)
-      addressable (~> 2.3)
-      json
-      oauth (>= 0.4.5)
-      rest-client (>= 1.8.0)
     sawyer (0.8.2)
       addressable (>= 2.3.5)
       faraday (> 0.8, < 2.0)
@@ -318,9 +275,6 @@ GEM
       nokogiri (>= 1.6, < 2.0)
     tzinfo (1.2.9)
       thread_safe (~> 0.1)
-    unf (0.1.4)
-      unf_ext
-    unf_ext (0.0.7.6)
     websocket (1.2.8)
     websocket-client-simple (0.3.0)
       event_emitter
@@ -345,11 +299,9 @@ DEPENDENCIES
   ruboty-callng
   ruboty-cloudfront
   ruboty-cron
-  ruboty-dictionary!
   ruboty-echo
   ruboty-esa!
   ruboty-github!
-  ruboty-google_image
   ruboty-growthforecast!
   ruboty-health_check!
   ruboty-lgtm
@@ -363,7 +315,6 @@ DEPENDENCIES
   ruboty-sorena!
   ruboty-timeline!
   ruboty-touban!
-  ruboty-trello_cleaner!
   ruboty-wei!
   ruboty-zoi!
   xrc
