@@ -1,1 +1,1 @@
-bot: bundle exec bin/ruboty
+bot: bundle exec ruboty
