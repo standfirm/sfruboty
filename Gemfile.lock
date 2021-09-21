@@ -74,6 +74,15 @@ GIT
       ruboty
 
 GIT
+  remote: https://github.com/standfirm/ruboty-cloudfront.git
+  revision: 154c252d81e1df30ffc0c1701b83943a32987136
+  branch: fix-distribution-not-found
+  specs:
+    ruboty-cloudfront (0.1.0)
+      aws-sdk (~> 2.0)
+      ruboty
+
+GIT
   remote: https://github.com/standfirm/ruboty-github.git
   revision: 3e68bcabe1e9daa16b771199c1253b6a49648ea7
   specs:
@@ -128,16 +137,16 @@ GEM
       zeitwerk (~> 2.3)
     addressable (2.8.0)
       public_suffix (>= 2.0.2, < 5.0)
-    aws-eventstream (1.0.3)
-    aws-sdk (2.11.296)
-      aws-sdk-resources (= 2.11.296)
-    aws-sdk-core (2.11.296)
+    aws-eventstream (1.2.0)
+    aws-sdk (2.11.632)
+      aws-sdk-resources (= 2.11.632)
+    aws-sdk-core (2.11.632)
       aws-sigv4 (~> 1.0)
       jmespath (~> 1.0)
-    aws-sdk-resources (2.11.296)
-      aws-sdk-core (= 2.11.296)
-    aws-sigv4 (1.1.0)
-      aws-eventstream (~> 1.0, >= 1.0.2)
+    aws-sdk-resources (2.11.632)
+      aws-sdk-core (= 2.11.632)
+    aws-sigv4 (1.4.0)
+      aws-eventstream (~> 1, >= 1.0.2)
     chrono (0.4.0)
       activesupport
     concurrent-ruby (1.1.9)
@@ -241,9 +250,6 @@ GEM
     ruboty-callng (1.1.1)
       ruboty
       twilio-ruby
-    ruboty-cloudfront (0.1.0)
-      aws-sdk (~> 2.0)
-      ruboty
     ruboty-cron (1.1.0)
       activesupport
       chrono
@@ -308,7 +314,7 @@ DEPENDENCIES
   ruboty-alias
   ruboty-balloon!
   ruboty-callng
-  ruboty-cloudfront
+  ruboty-cloudfront!
   ruboty-cron
   ruboty-echo
   ruboty-esa!
