@@ -7,7 +7,7 @@ gem 'slack-api', github: 'standfirm/slack-ruby-gem', branch: 'workround-faye-web
 
 # ruboty plugins
 gem 'ruboty-alias'
-gem 'ruboty-cloudfront'
+gem 'ruboty-cloudfront', github: 'standfirm/ruboty-cloudfront', branch: 'fix-distribution-not-found'
 gem 'ruboty-replace'
 gem 'ruboty-balloon', github: 'shimomura1004/ruboty-balloon'
 gem 'ruboty-callng'
