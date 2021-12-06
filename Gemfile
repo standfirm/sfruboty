@@ -3,6 +3,7 @@ ruby '2.7.4'
 gem 'ruboty'
 gem 'xrc'
 gem 'ruboty-slack_rtm'
+gem 'disable-ssl', github: 'mzp/disable-ssl'
 gem 'slack-api', github: 'standfirm/slack-ruby-gem', branch: 'workround-faye-websocket-security-issue'
 
 # ruboty plugins
