@@ -5,6 +5,8 @@ gem 'xrc'
 gem 'ruboty-slack_rtm'
 gem 'disable-ssl', github: 'mzp/disable-ssl'
 gem 'slack-api', github: 'standfirm/slack-ruby-gem', branch: 'workround-faye-websocket-security-issue'
+# https://github.com/shokai/websocket-client-simple/pull/36
+gem 'websocket-client-simple', github: 'fuyuton/websocket-client-simple'
 
 # ruboty plugins
 gem 'ruboty-alias'
