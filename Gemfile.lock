@@ -1,12 +1,4 @@
 GIT
-  remote: https://github.com/fuyuton/websocket-client-simple.git
-  revision: 3f455717022bc17bd079ab7cf54252dc120e5059
-  specs:
-    websocket-client-simple (0.3.3)
-      event_emitter (~> 0.2.6)
-      websocket (~> 1.2.8)
-
-GIT
   remote: https://github.com/hidakatsuya/ruboty-touban.git
   revision: 4a3458bf3bb51278247d20661f1dc97284780882
   specs:
@@ -274,11 +266,11 @@ GEM
       ruboty
     ruboty-replace (0.0.1)
       ruboty
-    ruboty-slack_rtm (3.2.3)
+    ruboty-slack_rtm (3.2.4)
       faraday (~> 0.11)
       ruboty (>= 1.1.4)
       slack-api (~> 1.6)
-      websocket-client-simple (~> 0.3.0)
+      websocket-client-simple (>= 0.5.0)
     sawyer (0.8.2)
       addressable (>= 2.3.5)
       faraday (> 0.8, < 2.0)
@@ -300,6 +292,9 @@ GEM
     uber (0.1.0)
     webrick (1.7.0)
     websocket (1.2.9)
+    websocket-client-simple (0.5.1)
+      event_emitter
+      websocket
     websocket-driver (0.7.5)
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.5)
@@ -340,7 +335,6 @@ DEPENDENCIES
   ruboty-wei!
   ruboty-zoi!
   slack-api!
-  websocket-client-simple!
   xrc
 
 RUBY VERSION
