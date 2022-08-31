@@ -30,6 +30,6 @@ gem 'ruboty-sorena', github: 'standfirm/ruboty-sorena'
 gem 'ruboty-touban', github: 'hidakatsuya/ruboty-touban'
 gem 'ruboty-wei', github: 'mzp/ruboty-wei'
 gem 'ruboty-zoi', github: 'mallowlabs/ruboty-zoi'
-gem 'ruboty-timeline', github: 'standfirm/ruboty-timeline', branch: 'use-users.conversations-instead'
+gem 'ruboty-timeline', github: 'standfirm/ruboty-timeline', branch: 'use-uri_open'
 
 gem "foreman"
