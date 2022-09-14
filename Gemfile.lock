@@ -38,14 +38,6 @@ GIT
       ruboty
 
 GIT
-  remote: https://github.com/mzp/ruboty-growthforecast.git
-  revision: 6c021a2c3f5f87d7f948f2465c7723cde0c37fc3
-  specs:
-    ruboty-growthforecast (0.1.0)
-      growthforecast
-      ruboty
-
-GIT
   remote: https://github.com/mzp/ruboty-misawa.git
   revision: 5b39a2f03fa13b45804f8415352c2eaa5732152d
   specs:
@@ -202,8 +194,6 @@ GEM
       multi_json (~> 1.11)
       os (>= 0.9, < 2.0)
       signet (~> 0.15)
-    growthforecast (0.0.5)
-      resolve-hostname
     httpclient (2.8.3)
     i18n (1.8.10)
       concurrent-ruby (~> 1.0)
@@ -236,7 +226,6 @@ GEM
       declarative (< 0.1.0)
       trailblazer-option (>= 0.1.1, < 0.2.0)
       uber (< 0.2.0)
-    resolve-hostname (0.1.0)
     retriable (3.1.2)
     rexml (3.2.5)
     ruboty (1.3.1)
@@ -319,7 +308,6 @@ DEPENDENCIES
   ruboty-echo
   ruboty-esa!
   ruboty-github!
-  ruboty-growthforecast!
   ruboty-health_check!
   ruboty-lgtm
   ruboty-misawa!
