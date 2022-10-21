@@ -24,7 +24,7 @@ GIT
 
 GIT
   remote: https://github.com/mallowlabs/ruboty-redash.git
-  revision: 4c343847afadbbb6780408ac001e7c32746baf1a
+  revision: 50a7917d0baf32aea5246ff6279393cf538d3ed5
   specs:
     ruboty-redash (0.1.0)
       faraday
