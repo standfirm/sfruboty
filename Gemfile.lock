@@ -324,7 +324,7 @@ DEPENDENCIES
   xrc
 
 RUBY VERSION
-   ruby 2.7.5p203
+   ruby 2.7.7p221
 
 BUNDLED WITH
    2.2.27
