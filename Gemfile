@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-ruby '2.7.8'
+ruby '3.1.4'
 gem 'ruboty'
 gem 'xrc'
 gem 'ruboty-slack_rtm'
