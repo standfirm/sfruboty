@@ -254,7 +254,7 @@ GEM
       ruboty
     ruboty-replace (0.0.1)
       ruboty
-    ruboty-slack_rtm (3.2.4)
+    ruboty-slack_rtm (3.2.5)
       faraday (~> 0.11)
       ruboty (>= 1.1.4)
       slack-api (~> 1.6)
@@ -279,8 +279,8 @@ GEM
       concurrent-ruby (~> 1.0)
     uber (0.1.0)
     webrick (1.7.0)
-    websocket (1.2.9)
-    websocket-client-simple (0.5.1)
+    websocket (1.2.10)
+    websocket-client-simple (0.8.0)
       event_emitter
       websocket
     websocket-driver (0.7.5)
