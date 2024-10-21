@@ -91,6 +91,16 @@ GIT
       ruboty
 
 GIT
+  remote: https://github.com/standfirm/ruboty-redis.git
+  revision: 26384305e7cfe3c7c971ae6b7768bc6cf68d42eb
+  branch: disable-certificate-verfication
+  specs:
+    ruboty-redis (0.0.6)
+      redis
+      redis-namespace
+      ruboty
+
+GIT
   remote: https://github.com/standfirm/ruboty-sorena.git
   revision: 8ced8973c8427e9f678dfe92aeaace6f9f2d4537
   specs:
@@ -253,10 +263,6 @@ GEM
       faraday
       faraday_middleware
       ruboty
-    ruboty-redis (0.0.6)
-      redis
-      redis-namespace
-      ruboty
     ruboty-replace (0.0.1)
       ruboty
     ruboty-slack_rtm (3.2.5)
@@ -317,7 +323,7 @@ DEPENDENCIES
   ruboty-misawa!
   ruboty-nullpo!
   ruboty-redash!
-  ruboty-redis
+  ruboty-redis!
   ruboty-replace
   ruboty-shinchoku!
   ruboty-slack_rtm
